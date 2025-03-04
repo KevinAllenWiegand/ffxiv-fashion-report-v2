@@ -1,15 +1,13 @@
 <div class="alert alert-info">
-    <p>For each slot in the Fashion Report that you would like to search, select the appropriate Slot Type, and then
-        provide the hint.</p>
-    <p>Results will be shown in the area below the corresponding hint. You can use the checkboxes to track the items you
-        already own.</p>
+    <p>For each slot in the Fashion Report that you would like to search, select the appropriate Slot Type, and then provide the hint.</p>
+    <p>Results will be shown in the area below the corresponding hint. You can use the checkboxes to track the items you already own.</p>
 </div>
 
 <div class="quickButtons">
-    <input type="button" class="btn btn-primary quickButton" value="Show Latest Week" />
-    <input type="button" class="btn btn-primary quickButton" value="Show Previous Week" />
-    <input type="button" class="btn btn-primary quickButton" value="Show Next Week" />
-    <input type="button" class="btn btn-primary quickButton" value="Reset Slots" />
+    <input type="button" (click)="showLatestWeek()" class="btn btn-primary quickButton" value="Show Latest Week" />
+    <input type="button" (click)="showPreviousWeek()" class="btn btn-primary quickButton" value="Show Previous Week" />
+    <input type="button" (click)="showNextWeek()" class="btn btn-primary quickButton" value="Show Next Week" />
+    <input type="button" (click)="resetSlots()" class="btn btn-primary quickButton" value="Reset Slots" />
 </div>
 
 <div class="weekTheme">
@@ -21,9 +19,9 @@
 </div>
 
 <div style="white-space: nowrap;">
-    <app-hint-search-panel></app-hint-search-panel>
-    <app-hint-search-panel></app-hint-search-panel>
-    <app-hint-search-panel></app-hint-search-panel>
-    <app-hint-search-panel></app-hint-search-panel>
-    <app-hint-search-panel></app-hint-search-panel>
+    <app-hint-search-panel [slotNumber]="0"></app-hint-search-panel>
+    <app-hint-search-panel [slotNumber]="1"></app-hint-search-panel>
+    <app-hint-search-panel [slotNumber]="2"></app-hint-search-panel>
+    <app-hint-search-panel [slotNumber]="3"></app-hint-search-panel>
+    <app-hint-search-panel [slotNumber]="4"></app-hint-search-panel>
 </div>

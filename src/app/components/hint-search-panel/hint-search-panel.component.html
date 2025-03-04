@@ -1,10 +1,28 @@
 <div class="hint-search-container">
-    <select class="form-control form-control-sm slotType">
+    <select class="form-control form-control-sm slotType" [(ngModel)]="slotType" (change)="slotTypeChanged()">
         @for (slotType of SlotTypes; track $index) {
-        <option value="{{ slotType }}">{{ slotType }}</option>
+            <option value="{{ slotType }}">{{ slotType }}</option>
         }
     </select>
-    <input type="text" class="form-control form-control-sm slotHint" placeholder="Hint" />
+    <input type="text" class="form-control form-control-sm slotHint" placeholder="Hint" [(ngModel)]="hint" (keyup)="hintChanged()" />
 
-    <div class="results"></div>
+    <div class="results">
+        @if (matchedSlots) {
+            @for (slot of matchedSlots; track slot) {
+                <div>
+                    {{ slot.hint }}
+                    
+                    @if (slotType === 'All') {
+                        &nbsp;({{ slot.type }})
+                    }
+
+                    @for (item of slot.items; track item) {
+                        <li>{{ item.name }}</li>
+                    }
+                </div>
+            }
+        } @else {
+            No Results
+        }
+    </div>
 </div>
