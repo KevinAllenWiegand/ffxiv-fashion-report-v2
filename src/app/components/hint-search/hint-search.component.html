@@ -3,14 +3,14 @@
     <p>Results will be shown in the area below the corresponding hint. You can use the checkboxes to track the items you already own.</p>
 </div>
 
-<div class="quickButtons">
-    <input type="button" (click)="showLatestWeek()" class="btn btn-primary quickButton" value="Show Latest Week" />
-    <input type="button" (click)="showPreviousWeek()" class="btn btn-primary quickButton" value="Show Previous Week" />
-    <input type="button" (click)="showNextWeek()" class="btn btn-primary quickButton" value="Show Next Week" />
-    <input type="button" (click)="resetSlots()" class="btn btn-primary quickButton" value="Reset Slots" />
+<div class="quick-buttons">
+    <input type="button" (click)="showLatestWeek()" class="btn btn-primary quick-button" value="Show Latest Week" />
+    <input type="button" (click)="showPreviousWeek()" class="btn btn-primary quick-button" value="Show Previous Week" />
+    <input type="button" (click)="showNextWeek()" class="btn btn-primary quick-button" value="Show Next Week" />
+    <input type="button" (click)="resetSlots()" class="btn btn-primary quick-button" value="Reset Slots" />
 </div>
 
-<div class="weekTheme">
+<div class="week-theme">
     @if (latestReport) {
         {{ latestReport.theme }} (Week {{ latestReport.week }} for {{ latestReport.date }})
     } @else {

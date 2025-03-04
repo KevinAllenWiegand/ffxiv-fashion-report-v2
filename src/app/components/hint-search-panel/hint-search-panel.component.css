@@ -1,10 +1,10 @@
-.slotType {
+.slot-type {
     display: inline;
     width: 75pt;
     appearance: menulist;
 }
 
-.slotHint {
+.slot-hint {
     display: inline;
     margin-left: 2pt;
     width: 165pt;
@@ -23,6 +23,38 @@
     color: #eee1c5;
     overflow-y: auto;
     margin: 5pt auto;
+    padding: 5pt;
     border-radius: 5pt;
     border: 1px solid #caaf75;
+}
+
+.result-items ul {
+    padding-left: 10pt;
+    list-style-type: none;
+}
+
+.result-slot-title {
+    padding-left: 8pt;
+    font-size: 1em;
+    font-weight: bold;
+    color: #d8728f;
+}
+
+.item-checkbox {
+    margin-right: 5px;
+}
+
+.search-lodestone:link,
+.search-lodestone:hover,
+.search-lodestone:visited,
+.search-lodestone:active {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.search-lodestone {
+    padding-left: 5px;
 }

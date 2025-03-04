@@ -57,9 +57,16 @@ export class HintSearchPanelComponent {
         this.loadResults();
     }
 
+    private searchTimeoutObject: any;
+
     hintChanged() {
-        // TODO: Put a timer on this so we're not firing like crazy
-        this.loadResults();
+        if (this.searchTimeoutObject) {
+            clearTimeout(this.searchTimeoutObject);
+        }
+
+        this.searchTimeoutObject = setTimeout(() => {
+            this.loadResults();
+        }, 500);
     }
 
     loadResults() {
@@ -76,6 +83,11 @@ export class HintSearchPanelComponent {
 
     clearResults() {
         this.matchedSlots = [];
+    }
+
+    getSearchUri(name: string) {
+        const searchQuery = encodeURIComponent(name).replace(/[\']/gi, '%27');
+        return 'https://na.finalfantasyxiv.com/lodestone/playguide/db/search/?q=' + searchQuery;
     }
 
     ngOnDestroy(): void {

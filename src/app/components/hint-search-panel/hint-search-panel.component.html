@@ -1,24 +1,33 @@
 <div class="hint-search-container">
-    <select class="form-control form-control-sm slotType" [(ngModel)]="slotType" (change)="slotTypeChanged()">
+    <select class="form-control form-control-sm slot-type" [(ngModel)]="slotType" (change)="slotTypeChanged()">
         @for (slotType of SlotTypes; track $index) {
             <option value="{{ slotType }}">{{ slotType }}</option>
         }
     </select>
-    <input type="text" class="form-control form-control-sm slotHint" placeholder="Hint" [(ngModel)]="hint" (keyup)="hintChanged()" />
+    <input type="text" class="form-control form-control-sm slot-hint" placeholder="Hint" [(ngModel)]="hint" (keyup)="hintChanged()" />
 
     <div class="results">
         @if (matchedSlots) {
             @for (slot of matchedSlots; track slot) {
                 <div>
-                    {{ slot.hint }}
-                    
-                    @if (slotType === 'All') {
-                        &nbsp;({{ slot.type }})
-                    }
+                    <div class="result-slot-title">
+                        {{ slot.hint }}
+                        
+                        @if (slotType === 'All') {
+                            &nbsp;({{ slot.type }})
+                        }
+                    </div>
 
-                    @for (item of slot.items; track item) {
-                        <li>{{ item.name }}</li>
-                    }
+                    <div class="result-items">
+                        <ul>
+                            @for (item of slot.items; track item) {
+                                <li>
+                                    <input type="checkbox" class="item-checkbox">{{ item.name }}
+                                    <a href="{{ getSearchUri(item.name) }}" target='_blank' class='btn btn-link bi bi-search search-lodestone' title='Search in Lodestone'></a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
                 </div>
             }
         } @else {
