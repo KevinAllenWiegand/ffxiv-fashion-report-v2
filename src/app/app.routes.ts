@@ -1,10 +1,11 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { ItemSearchComponent } from './home/item-search.component';
-import { MyItemsComponent } from './home/my-items.component';
+import { HintSearchComponent } from './components/hint-search/hint-search.component';
+import { ItemSearchComponent } from './components/item-search/item-search.component';
+import { MyItemsComponent } from './components/my-items/my-items.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent },
+    { path: '', component: HintSearchComponent },
+    { path: 'hintsearch', component: HintSearchComponent },
     { path: 'itemsearch', component: ItemSearchComponent },
     { path: 'myitems', component: MyItemsComponent }
 ];
