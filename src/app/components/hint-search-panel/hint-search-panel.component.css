@@ -1,0 +1,28 @@
+.slotType {
+    display: inline;
+    width: 75pt;
+    appearance: menulist;
+}
+
+.slotHint {
+    display: inline;
+    margin-left: 2pt;
+    width: 165pt;
+}
+
+.hint-search-container {
+    width: 250pt;
+    display: inline-block;
+    margin-right: 5pt;
+}
+
+.results {
+    height: 600px;
+    width: 250pt;
+    background-color: #000000;
+    color: #eee1c5;
+    overflow-y: auto;
+    margin: 5pt auto;
+    border-radius: 5pt;
+    border: 1px solid #caaf75;
+}

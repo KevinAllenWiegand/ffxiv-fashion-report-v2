@@ -1,0 +1,29 @@
+<div class="alert alert-info">
+    <p>For each slot in the Fashion Report that you would like to search, select the appropriate Slot Type, and then
+        provide the hint.</p>
+    <p>Results will be shown in the area below the corresponding hint. You can use the checkboxes to track the items you
+        already own.</p>
+</div>
+
+<div class="quickButtons">
+    <input type="button" class="btn btn-primary quickButton" value="Show Latest Week" />
+    <input type="button" class="btn btn-primary quickButton" value="Show Previous Week" />
+    <input type="button" class="btn btn-primary quickButton" value="Show Next Week" />
+    <input type="button" class="btn btn-primary quickButton" value="Reset Slots" />
+</div>
+
+<div class="weekTheme">
+    @if (latestReport) {
+        {{ latestReport.theme }} (Week {{ latestReport.week }} for {{ latestReport.date }})
+    } @else {
+        Loading...
+    }
+</div>
+
+<div style="white-space: nowrap;">
+    <app-hint-search-panel></app-hint-search-panel>
+    <app-hint-search-panel></app-hint-search-panel>
+    <app-hint-search-panel></app-hint-search-panel>
+    <app-hint-search-panel></app-hint-search-panel>
+    <app-hint-search-panel></app-hint-search-panel>
+</div>

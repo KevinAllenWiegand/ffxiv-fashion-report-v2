@@ -1,18 +1,20 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable } from '@angular/core';
 import { MasterData } from '../common/types';
 
 @Injectable({
     providedIn: 'root'
 })
 export class MasterJsonService {
-    private masterData: MasterData | undefined;
+    dataAvailable = new EventEmitter<void>();
+    masterData: MasterData | undefined;
     
     constructor(
         private readonly httpClient: HttpClient
     ) {
         this.httpClient.get('master.json').subscribe((data: any) => {
             this.masterData = data;
+            this.dataAvailable.emit();
         });
     }
 }

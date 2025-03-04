@@ -31,6 +31,10 @@ h1 {
     color: #d8728f;
 }
 
+.content-container {
+    margin: 25px;
+}
+
 .footer {
     text-align: center;
     font-size: 10pt;

@@ -1,0 +1,10 @@
+<div class="hint-search-container">
+    <select class="form-control form-control-sm slotType">
+        @for (slotType of SlotTypes; track $index) {
+        <option value="{{ slotType }}">{{ slotType }}</option>
+        }
+    </select>
+    <input type="text" class="form-control form-control-sm slotHint" placeholder="Hint" />
+
+    <div class="results"></div>
+</div>

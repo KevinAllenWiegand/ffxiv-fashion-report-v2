@@ -24,3 +24,16 @@ export interface MasterData {
     slots: Slot[],
     reports: Report[]
 }
+
+export const SlotTypes = [
+    'All',
+    'Head',
+    'Body',
+    'Hands',
+    'Legs',
+    'Feet',
+    'Ear',
+    'Neck',
+    'Wrist',
+    'Ring'
+];
