@@ -31,6 +31,7 @@
 .result-items ul {
     padding-left: 10pt;
     list-style-type: none;
+    font-size: 0.8em;
 }
 
 .result-slot-title {
@@ -44,15 +45,10 @@
     margin-right: 5px;
 }
 
-.search-lodestone:link,
-.search-lodestone:hover,
-.search-lodestone:visited,
-.search-lodestone:active {
+.search-lodestone {
     color: #ffffff;
     cursor: pointer;
     text-decoration: none;
-    padding: 0;
-    overflow: hidden;
 }
 
 .search-lodestone {

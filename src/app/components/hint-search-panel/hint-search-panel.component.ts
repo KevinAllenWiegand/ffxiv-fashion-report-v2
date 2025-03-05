@@ -4,11 +4,13 @@ import { Component, Input } from '@angular/core';
 import { GlobalEventService } from '../../services/GlobalEventService';
 import { FormsModule } from '@angular/forms';
 import { MasterJsonService } from '../../services/MasterJsonService';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-hint-search-panel',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, FontAwesomeModule],
   templateUrl: './hint-search-panel.component.html',
   styleUrl: './hint-search-panel.component.css'
 })
@@ -16,6 +18,7 @@ export class HintSearchPanelComponent {
     @Input()
     slotNumber = -1;
 
+    faMagnifyingGlass = faMagnifyingGlass;
     resetSlotsSubscription: Subscription;
     loadReportSlotSubscription: Subscription;
     slotType = 'All';

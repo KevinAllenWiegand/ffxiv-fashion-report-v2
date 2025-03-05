@@ -23,7 +23,7 @@
                             @for (item of slot.items; track item) {
                                 <li>
                                     <input type="checkbox" class="item-checkbox">{{ item.name }}
-                                    <a href="{{ getSearchUri(item.name) }}" target='_blank' class='btn btn-link bi bi-search search-lodestone' title='Search in Lodestone'></a>
+                                    <a href="{{ getSearchUri(item.name) }}" target='_blank' title='Search in Lodestone'><fa-icon [icon]="faMagnifyingGlass" class="search-lodestone"></fa-icon></a>
                                 </li>
                             }
                         </ul>
