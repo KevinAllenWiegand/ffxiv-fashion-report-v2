@@ -67,6 +67,9 @@
                             "buildTarget": "ffxiv-fashion-report-v2:build:development"
                         }
                     },
+                    "options": {
+                        "servePath": "/ffxivfashionreportv2/"
+                    },
                     "defaultConfiguration": "development"
                 },
                 "extract-i18n": {
