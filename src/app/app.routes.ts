@@ -4,8 +4,9 @@ import { ItemSearchComponent } from './components/item-search/item-search.compon
 import { MyItemsComponent } from './components/my-items/my-items.component';
 
 export const routes: Routes = [
-    { path: '', component: HintSearchComponent },
-    { path: 'hintsearch', component: HintSearchComponent },
-    { path: 'itemsearch', component: ItemSearchComponent },
-    { path: 'myitems', component: MyItemsComponent }
+    { path: '', component: HintSearchComponent, data: { storeRoute: true } },
+    { path: 'hintsearch', component: HintSearchComponent, data: { storeRoute: true } },
+    { path: 'itemsearch', component: ItemSearchComponent, data: { storeRoute: true } },
+    { path: 'myitems', component: MyItemsComponent },
+    { path: "**", redirectTo: "" }
 ];
