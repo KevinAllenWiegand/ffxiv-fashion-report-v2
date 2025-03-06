@@ -19,9 +19,12 @@ export class HintSearchPanelComponent {
     @Input()
     slotNumber = -1;
 
+    private readonly resetSlotsSubscription: Subscription;
+    private readonly loadReportSlotSubscription: Subscription;
+
+    private searchTimeoutObject: any;
+
     faMagnifyingGlass = faMagnifyingGlass;
-    resetSlotsSubscription: Subscription;
-    loadReportSlotSubscription: Subscription;
     slotType = 'All';
     hint = '';
     matchedSlots: Slot[] = [];
@@ -62,8 +65,6 @@ export class HintSearchPanelComponent {
         this.loadResults();
     }
 
-    private searchTimeoutObject: any;
-
     hintChanged() {
         if (this.searchTimeoutObject) {
             clearTimeout(this.searchTimeoutObject);
@@ -77,11 +78,13 @@ export class HintSearchPanelComponent {
     loadResults() {
         const matchedSlots: Slot[] = [];
 
-        this.masterJsonService.masterData?.slots.forEach((slot: Slot) => {
-            if (((slot.type === this.slotType) || this.slotType === 'All') && slot.hint.toLowerCase().includes(this.hint.toLowerCase())) {
-                matchedSlots.push(slot);
-            }
-        });
+        if (this.hint && this.hint.length < 2) {
+            this.masterJsonService.masterData?.slots.forEach((slot: Slot) => {
+                if (((slot.type === this.slotType) || this.slotType === 'All') && slot.hint.toLowerCase().includes(this.hint.toLowerCase())) {
+                    matchedSlots.push(slot);
+                }
+            });
+        }
 
         this.matchedSlots = matchedSlots;
     }

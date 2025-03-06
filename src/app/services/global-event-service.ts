@@ -1,5 +1,5 @@
 import { EventEmitter, Injectable } from "@angular/core";
-import { Report } from '../common/types';
+import { HintItem, Report } from '../common/types';
 
 @Injectable({
     providedIn: 'root'
@@ -7,4 +7,6 @@ import { Report } from '../common/types';
 export class GlobalEventService {
     onResetSlots = new EventEmitter<void>();
     onLoadReportSlot = new EventEmitter<Report>();
+    onSearchItems = new EventEmitter<string>();
+    onSearchItemsComplete = new EventEmitter<HintItem[]>();
 }

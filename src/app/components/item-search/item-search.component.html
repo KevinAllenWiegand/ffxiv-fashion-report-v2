@@ -1,1 +1,15 @@
-<p>Item Search</p>
+<div class="alert alert-info">
+    Type in the name of the item you would like to find to see if it appeared in any past Fashion Report, and then click the "Search" button.
+    <br /><br />
+    A list of matched items will appear on the left, and a list of Fashion Reports that matched any of the matched items will appear on the right.
+</div>
+
+<div class="quick-buttons">
+    <input type="text" class="form-control form-control-sm item-name" placeholder="Item Name" [(ngModel)]="itemName" (keyup)="itemNameChanged()" />
+    <input type="button" class="btn btn-primary quick-button" value="Search" (click)="loadResults()" />
+</div>
+
+<div style="white-space: nowrap;">
+    <app-item-search-items-panel></app-item-search-items-panel>
+    <app-item-search-reports-panel></app-item-search-reports-panel>
+</div>

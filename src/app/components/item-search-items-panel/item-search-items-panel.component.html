@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="header">Item Results</div>
+
+    <div class="items">
+        @if (matchedItems && matchedItems.length) {
+            <ul>
+                @for (item of matchedItems; track item.name) {
+                    <li [innerHTML]="highlightTerm(item.name)"></li>
+                }
+            </ul>
+        } @else {
+            No Results
+        }
+    </div>
+</div>

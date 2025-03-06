@@ -13,7 +13,7 @@ import { GlobalEventService } from '../../services/global-event-service';
     styleUrl: './hint-search.component.css'
 })
 export class HintSearchComponent {   
-    private dataAvailableSubscription: Subscription;
+    private readonly dataAvailableSubscription: Subscription;
     private currentReportData: Report | undefined;
     private currentWeekIndex = -1;
 
