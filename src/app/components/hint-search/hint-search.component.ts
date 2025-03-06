@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { MasterJsonService } from '../../services/MasterJsonService';
+import { MasterJsonService } from '../../services/master-json-service';
 import { Report } from '../../common/types';
 import { Subscription } from 'rxjs';
 import { HintSearchPanelComponent } from "../hint-search-panel/hint-search-panel.component";
-import { GlobalEventService } from '../../services/GlobalEventService';
+import { GlobalEventService } from '../../services/global-event-service';
 
 @Component({
   selector: 'app-home',

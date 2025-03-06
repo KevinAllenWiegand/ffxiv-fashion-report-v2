@@ -1,5 +1,5 @@
 import { EventEmitter, Injectable } from "@angular/core";
-import { MasterJsonService } from "./MasterJsonService";
+import { MasterJsonService } from "./master-json-service";
 import { Subscription } from "rxjs";
 
 @Injectable({

@@ -1,12 +1,12 @@
 import { Subscription } from 'rxjs';
 import { SlotTypes, Report, Slot, HintItem } from '../../common/types';
 import { Component, Input } from '@angular/core';
-import { GlobalEventService } from '../../services/GlobalEventService';
+import { GlobalEventService } from '../../services/global-event-service';
 import { FormsModule } from '@angular/forms';
-import { MasterJsonService } from '../../services/MasterJsonService';
+import { MasterJsonService } from '../../services/master-json-service';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
-import { OwnedItemsService } from '../../services/OwnedItemsService';
+import { OwnedItemsService } from '../../services/owned-items-service';
 
 @Component({
   selector: 'app-hint-search-panel',

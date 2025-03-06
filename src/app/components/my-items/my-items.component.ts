@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { OwnedItemsService } from '../../services/OwnedItemsService';
+import { OwnedItemsService } from '../../services/owned-items-service';
 import { Subscription } from 'rxjs';
-import { GlobalEventService } from '../../services/GlobalEventService';
-import { MessageBoxDialogService } from '../../services/MessageBoxDialogService';
+import { GlobalEventService } from '../../services/global-event-service';
+import { MessageBoxDialogService } from '../../services/messagebox-dialog-service';
 
 @Component({
   selector: 'app-my-items',
