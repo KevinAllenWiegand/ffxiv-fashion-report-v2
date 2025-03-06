@@ -8,7 +8,7 @@
 
     <div class="results">
         @if (matchedSlots) {
-            @for (slot of matchedSlots; track slot) {
+            @for (slot of matchedSlots; track slot.hint) {
                 <div>
                     <div class="result-slot-title">
                         {{ slot.hint }}
@@ -20,9 +20,9 @@
 
                     <div class="result-items">
                         <ul>
-                            @for (item of slot.items; track item) {
+                            @for (item of slot.items; track item.name) {
                                 <li>
-                                    <input type="checkbox" class="item-checkbox">{{ item.name }}
+                                    <input type="checkbox" class="item-checkbox" (change)="itemSelectionChanged($event, item)" [checked]="isOwned(item.name)" />{{ item.name }}
                                     <a href="{{ getSearchUri(item.name) }}" target='_blank' title='Search in Lodestone'><fa-icon [icon]="faMagnifyingGlass" class="search-lodestone"></fa-icon></a>
                                 </li>
                             }

@@ -1,11 +1,12 @@
 import { Subscription } from 'rxjs';
-import { SlotTypes, Report, Slot } from '../../common/types';
+import { SlotTypes, Report, Slot, HintItem } from '../../common/types';
 import { Component, Input } from '@angular/core';
 import { GlobalEventService } from '../../services/GlobalEventService';
 import { FormsModule } from '@angular/forms';
 import { MasterJsonService } from '../../services/MasterJsonService';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { OwnedItemsService } from '../../services/OwnedItemsService';
 
 @Component({
   selector: 'app-hint-search-panel',
@@ -27,7 +28,8 @@ export class HintSearchPanelComponent {
 
     constructor(
         private readonly globalEventService: GlobalEventService,
-        private readonly masterJsonService: MasterJsonService
+        private readonly masterJsonService: MasterJsonService,
+        private readonly ownedItemsService: OwnedItemsService
     ) {
         this.resetSlotsSubscription = globalEventService.onResetSlots.subscribe(() => {
             this.reset();
@@ -82,6 +84,20 @@ export class HintSearchPanelComponent {
         });
 
         this.matchedSlots = matchedSlots;
+    }
+
+    itemSelectionChanged(event: any, item: HintItem) {
+        const isChecked = event.target['checked'];
+
+        if (isChecked) {
+            this.ownedItemsService.add(item.name);
+        } else {
+            this.ownedItemsService.remove(item.name);
+        }
+    }
+
+    isOwned(name: string) {
+        return this.ownedItemsService.isOwned(name);
     }
 
     clearResults() {
