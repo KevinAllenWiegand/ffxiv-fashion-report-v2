@@ -31,12 +31,15 @@ export class OwnedItemsService {
             this.onDataAvailable.emit();
         }
 
-        // Subscribe to the master json event so we can attempt to migrate.
         if (rawV2Count === 0) {
-            this.dataAvailableSubscription = masterJsonService.onDataAvailable.subscribe(() => {
-                this.dataAvailableSubscription?.unsubscribe();
+            if (!this.masterJsonService.isReady) {
+                this.dataAvailableSubscription = masterJsonService.onDataAvailable.subscribe(() => {
+                    this.dataAvailableSubscription?.unsubscribe();
+                    this.migrateV1ToV2();
+                });
+            } else {
                 this.migrateV1ToV2();
-            });
+            }
         }
     }
 

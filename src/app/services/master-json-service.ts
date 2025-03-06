@@ -8,12 +8,14 @@ import { MasterData } from '../common/types';
 export class MasterJsonService {
     onDataAvailable = new EventEmitter<void>();
     masterData: MasterData | undefined;
+    isReady = false;
     
     constructor(
         private readonly httpClient: HttpClient
     ) {
         this.httpClient.get('master.json').subscribe((data: any) => {
             this.masterData = data;
+            this.isReady = true;
             this.onDataAvailable.emit();
         });
     }

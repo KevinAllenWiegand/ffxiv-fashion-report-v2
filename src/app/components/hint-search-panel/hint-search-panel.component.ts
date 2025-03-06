@@ -78,7 +78,7 @@ export class HintSearchPanelComponent {
     loadResults() {
         const matchedSlots: Slot[] = [];
 
-        if (this.hint && this.hint.length < 2) {
+        if (this.hint && this.hint.length > 2) {
             this.masterJsonService.masterData?.slots.forEach((slot: Slot) => {
                 if (((slot.type === this.slotType) || this.slotType === 'All') && slot.hint.toLowerCase().includes(this.hint.toLowerCase())) {
                     matchedSlots.push(slot);

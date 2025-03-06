@@ -19,3 +19,8 @@
 .quick-button {
     margin-right: 5pt;
 }
+
+.alert {
+    width: 75%;
+    margin: auto auto 10px;
+}

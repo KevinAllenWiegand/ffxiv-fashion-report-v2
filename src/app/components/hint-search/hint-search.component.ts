@@ -13,7 +13,7 @@ import { GlobalEventService } from '../../services/global-event-service';
     styleUrl: './hint-search.component.css'
 })
 export class HintSearchComponent {   
-    private readonly dataAvailableSubscription: Subscription;
+    private readonly dataAvailableSubscription: Subscription | undefined;
     private currentReportData: Report | undefined;
     private currentWeekIndex = -1;
 
@@ -21,21 +21,18 @@ export class HintSearchComponent {
         private readonly masterJsonService: MasterJsonService,
         private readonly globalEventService: GlobalEventService
     ) {
-        this.dataAvailableSubscription = masterJsonService.onDataAvailable.subscribe(() => {
-            this.dataAvailableSubscription.unsubscribe();
-
-            const reports = masterJsonService.masterData?.reports;
-
-            if (reports && reports.length) {
-                this.currentWeekIndex = reports.length - 1;
-                this.currentReportData = reports[this.currentWeekIndex];
-                globalEventService.onLoadReportSlot.emit(this.latestReport);
-            }
-        });
+        if (!this.masterJsonService.isReady) {
+            this.dataAvailableSubscription = masterJsonService.onDataAvailable.subscribe(() => {
+                this.dataAvailableSubscription?.unsubscribe();
+                this.showLatestWeek();
+            });
+        } else {
+            this.showLatestWeek();
+        }
     }
 
     ngOnDestroy(): void {
-        this.dataAvailableSubscription.unsubscribe();
+        this.dataAvailableSubscription?.unsubscribe();
     }
 
     get latestReport() { return this.currentReportData; }

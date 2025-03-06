@@ -13,5 +13,6 @@
 }
 
 .alert {
-    width: 800pt;
+    width: 75%;
+    margin: auto auto 10px;
 }

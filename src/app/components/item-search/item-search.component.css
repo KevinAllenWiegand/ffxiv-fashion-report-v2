@@ -3,3 +3,8 @@
     margin-right: 5px;
     width: 165pt;
 }
+
+.alert {
+    width: 75%;
+    margin: auto auto 10px;
+}
