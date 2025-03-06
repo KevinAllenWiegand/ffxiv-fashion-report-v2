@@ -1,0 +1,21 @@
+.my-items {
+    height: 600px;
+    width: 400px;
+    background-color: #000000;
+    color: #eee1c5;
+    white-space: nowrap;
+    overflow-y: auto;
+    margin: 5pt 0pt;
+    padding: 5pt;
+    border-radius: 5pt;
+    border: 1px solid #caaf75;
+    font-size: 0.8em;
+}
+
+.quick-buttons {
+    margin-bottom: 10pt;
+}
+
+.quick-button {
+    margin-right: 5pt;
+}

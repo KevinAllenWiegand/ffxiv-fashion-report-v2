@@ -35,9 +35,7 @@ export class HintSearchComponent {
     }
 
     ngOnDestroy(): void {
-        if (this.dataAvailableSubscription) {
-            this.dataAvailableSubscription.unsubscribe();
-        }
+        this.dataAvailableSubscription.unsubscribe();
     }
 
     get latestReport() { return this.currentReportData; }

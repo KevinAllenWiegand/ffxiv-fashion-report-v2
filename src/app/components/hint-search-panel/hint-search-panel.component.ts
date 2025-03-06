@@ -110,8 +110,7 @@ export class HintSearchPanelComponent {
     }
 
     ngOnDestroy(): void {
-        if (this.resetSlotsSubscription) {
-            this.resetSlotsSubscription.unsubscribe();
-        }
+        this.resetSlotsSubscription.unsubscribe();
+        this.loadReportSlotSubscription.unsubscribe();
     }
 }

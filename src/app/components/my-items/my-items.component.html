@@ -1,1 +1,21 @@
-<p>My Items</p>
+<div class="alert alert-info">
+    The "Backup My Items" button will download a JSON representation of the items you have checked off that you own. This file can then be used to restore them if ever needed.
+    <br /><br />
+    After selecting an appropriate JSON file, click the "Restore My Items" button to overwrite your currently selected owned items. Note that you can also use this to import your items from the old V1 version of this site.
+</div>
+
+<div class="quick-buttons">
+    <input type="button" class="btn btn-primary quick-button" value="Backup My Items" (click)="backupItems()" />
+    <div style="margin-top:5px;">
+        <input type="button" class="btn btn-primary quick-button" value="Restore My Items" (click)="restoreItems()" />
+        <input type="file" accept=".json" (change)="onRestoreFileSelected($event)" />
+    </div>
+</div>
+
+<div class="my-items">
+    <ul>
+    @for (item of ownedItems; track item) {
+        <li>{{ item }}</li>
+    }
+    </ul>
+</div>

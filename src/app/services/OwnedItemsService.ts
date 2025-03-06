@@ -1,4 +1,4 @@
-import { Injectable } from "@angular/core";
+import { EventEmitter, Injectable } from "@angular/core";
 import { MasterJsonService } from "./MasterJsonService";
 import { Subscription } from "rxjs";
 
@@ -11,6 +11,8 @@ export class OwnedItemsService {
 
     private dataAvailableSubscription: Subscription | undefined;
     private readonly ownedItemsV2 = new Set<string>();
+
+    onDataAvailable = new EventEmitter<void>();
 
     constructor(
         private readonly masterJsonService: MasterJsonService
@@ -25,24 +27,32 @@ export class OwnedItemsService {
             items.forEach(item => {
                 this.ownedItemsV2.add(item);
             });
+
+            this.onDataAvailable.emit();
         }
 
         // Subscribe to the master json event so we can attempt to migrate.
         if (rawV2Count === 0) {
             this.dataAvailableSubscription = masterJsonService.onDataAvailable.subscribe(() => {
+                this.dataAvailableSubscription?.unsubscribe();
                 this.migrateV1ToV2();
             });
         }
     }
 
     ngOnDestroy(): void {
-        if (this.dataAvailableSubscription) {
-            this.dataAvailableSubscription.unsubscribe();
-        }
+        this.dataAvailableSubscription?.unsubscribe();
     }
 
     add(name: string) {
         this.ownedItemsV2.add(name);
+        this.save();
+    }
+
+    addAll(names: string[]) {
+        names.forEach(name => {
+            this.ownedItemsV2.add(name);
+        });
         this.save();
     }
 
@@ -51,8 +61,25 @@ export class OwnedItemsService {
         this.save();
     }
 
+    clear() {
+        this.ownedItemsV2.clear();
+        this.save();
+    }
+
     isOwned(name: string) {
         return this.ownedItemsV2.has(name);
+    }
+
+    getOwnedItems() {
+        const items: string[] = [];
+
+        this.ownedItemsV2.forEach(item => {
+            items.push(item);
+        });
+
+        items.sort();
+
+        return items;
     }
 
     private migrateV1ToV2() {
@@ -72,6 +99,7 @@ export class OwnedItemsService {
             });
 
             this.save();
+            this.onDataAvailable.emit();
         }
     }
 
@@ -103,14 +131,7 @@ export class OwnedItemsService {
     }
 
     private save() {
-        const items: string[] = [];
-
-        this.ownedItemsV2.forEach(item => {
-            items.push(item);
-        });
-
-        items.sort();
-
+        const items = this.getOwnedItems();
         window.localStorage.setItem(this.KEY_V2, JSON.stringify(items));
     }
 }
