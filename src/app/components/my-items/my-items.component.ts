@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { OwnedItemsService } from '../../services/OwnedItemsService';
 import { Subscription } from 'rxjs';
 import { GlobalEventService } from '../../services/GlobalEventService';
+import { MessageBoxDialogService } from '../../services/MessageBoxDialogService';
 
 @Component({
   selector: 'app-my-items',
@@ -19,7 +20,8 @@ export class MyItemsComponent {
     
     constructor(
         private readonly ownedItemsService: OwnedItemsService,
-        private readonly globalEventService: GlobalEventService
+        private readonly globalEventService: GlobalEventService,
+        private readonly messageBoxDialogService: MessageBoxDialogService
     ) {
         this.ownedItems = ownedItemsService.getOwnedItems();
 
@@ -57,14 +59,14 @@ export class MyItemsComponent {
         const filename = this.restoreFile?.name;
 
         if (!filename) {
-            // TODO: Show message about no selected file.
+            this.messageBoxDialogService.show('Please select a file first.');
             return;
         }
 
         alert(filename);
 
         if (filename.length < 6 || !filename.endsWith('.json')) {
-            // TODO: Show message about invalid file.
+            this.messageBoxDialogService.show('The selected file is invalid. Please select a different file.');
             return;
         }
 
@@ -90,8 +92,7 @@ export class MyItemsComponent {
 
                     this.restoreFile = null;
                     this.restoreFileInputElement = null;
-
-                    // TODO: Show message that items were restored.
+                    this.messageBoxDialogService.show('Your items have been restored.');
                 } catch (error) {
                 }
             }
