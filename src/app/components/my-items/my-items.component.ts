@@ -63,8 +63,6 @@ export class MyItemsComponent {
             return;
         }
 
-        alert(filename);
-
         if (filename.length < 6 || !filename.endsWith('.json')) {
             this.messageBoxDialogService.show('The selected file is invalid. Please select a different file.');
             return;
@@ -79,10 +77,7 @@ export class MyItemsComponent {
                 try {
                     var itemsArray = JSON.parse(items.toString());
 
-                    // TODO: Check the items to see if they are V1 or V2 format
-                    // so we can migrate V1 format if provided.
-                    this.ownedItemsService.clear();
-                    this.ownedItemsService.addAll(itemsArray);
+                    this.ownedItemsService.restore(itemsArray);
                     this.ownedItems = this.ownedItemsService.getOwnedItems();
                     this.globalEventService.onLoadReportSlot.emit();
 

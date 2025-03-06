@@ -49,9 +49,20 @@ export class OwnedItemsService {
         this.save();
     }
 
-    addAll(names: string[]) {
+    restore(names: string[]) {
+        this.ownedItemsV2.clear();
+
         names.forEach(name => {
-            this.ownedItemsV2.add(name);
+            let effectiveName = name;
+            
+            // Migrate from V1 if necessary
+            if (effectiveName.startsWith('item')) {
+                effectiveName = this.findItemNameFromV1Id(effectiveName.substring(4));
+            }
+
+            if (effectiveName) {
+                this.ownedItemsV2.add(effectiveName);
+            }
         });
         this.save();
     }
