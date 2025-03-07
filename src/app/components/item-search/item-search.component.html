@@ -4,12 +4,12 @@
     A list of matched items will appear on the left, and a list of Fashion Reports that matched any of the matched items will appear on the right.
 </div>
 
-<div class="quick-buttons">
+<div class="button-container">
     <input type="text" class="form-control form-control-sm item-name" placeholder="Item Name" [(ngModel)]="itemName" (keyup)="itemNameChanged()" />
-    <input type="button" class="btn btn-primary quick-button" value="Search" (click)="loadResults()" />
+    <input type="button" class="btn btn-primary button" value="Search" (click)="loadResults()" />
 </div>
 
-<div style="white-space: nowrap;">
+<div class="nowrap">
     <app-item-search-items-panel></app-item-search-items-panel>
     <app-item-search-reports-panel></app-item-search-reports-panel>
 </div>

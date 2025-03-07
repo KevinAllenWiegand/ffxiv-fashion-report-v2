@@ -12,11 +12,11 @@
     font-size: 0.8em;
 }
 
-.quick-buttons {
+.button-container {
     margin-bottom: 10pt;
 }
 
-.quick-button {
+.button {
     margin-right: 5pt;
 }
 

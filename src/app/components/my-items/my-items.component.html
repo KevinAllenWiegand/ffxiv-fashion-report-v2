@@ -4,12 +4,10 @@
     After selecting an appropriate JSON file, click the "Restore My Items" button to overwrite your currently selected owned items. Note that you can also use this to import your items from the old V1 version of this site.
 </div>
 
-<div class="quick-buttons">
-    <input type="button" class="btn btn-primary quick-button" value="Backup My Items" (click)="backupItems()" />
-    <div style="margin-top:5px;">
-        <input type="button" class="btn btn-primary quick-button" value="Restore My Items" (click)="restoreItems()" />
-        <input type="file" accept=".json" (change)="onRestoreFileSelected($event)" />
-    </div>
+<div class="button-container">
+    <input type="button" class="btn btn-primary button" value="Backup My Items" (click)="backupItems()" />
+    <input type="button" class="btn btn-primary button" value="Restore My Items" (click)="restoreItems()" />
+    <input type="file" accept=".json" (change)="onRestoreFileSelected($event)" />
 </div>
 
 <div class="my-items">
