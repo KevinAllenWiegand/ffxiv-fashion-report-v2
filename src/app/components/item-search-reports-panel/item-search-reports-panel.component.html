@@ -11,11 +11,14 @@
 
                     <ul>
                         @for (item of slot.items; track item) {
-                            @if (item.highlighted) {
-                                <li><span class="highlighted">{{ item.name }}</span></li>
-                            } @else {
-                                <li>{{ item.name }}</li>
-                            }
+                            <li>
+                                @if (item.highlighted) {
+                                    <span class="highlighted">{{ item.name }}</span>
+                                } @else {
+                                    {{ item.name }}
+                                }
+                                <a href="{{ getSearchUri(item.name) }}" target='_blank' title='Search in Lodestone'><fa-icon [icon]="faMagnifyingGlass" class="search-lodestone"></fa-icon></a>
+                            </li>
                         }
                     </ul>
                 }

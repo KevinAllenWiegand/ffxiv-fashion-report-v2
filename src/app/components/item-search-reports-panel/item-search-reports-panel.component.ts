@@ -4,6 +4,8 @@ import { MasterJsonService } from '../../services/master-json-service';
 import { DomSanitizer } from '@angular/platform-browser';
 import { HintItem, Report } from '../../common/types';
 import { Subscription } from 'rxjs';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 interface MatchedReportSlotItem {
     name: string,
@@ -23,17 +25,18 @@ interface MatchedReport {
 }
 
 @Component({
-  selector: 'app-item-search-reports-panel',
-  standalone: true,
-  imports: [],
-  templateUrl: './item-search-reports-panel.component.html',
-  styleUrl: './item-search-reports-panel.component.css'
+    selector: 'app-item-search-reports-panel',
+    standalone: true,
+    imports: [FontAwesomeModule],
+    templateUrl: './item-search-reports-panel.component.html',
+      styleUrl: './item-search-reports-panel.component.css'
 })
 export class ItemSearchReportsPanelComponent {
     private readonly searchItemsCompleteSubscription: Subscription;
 
     private matchedSearchItems: HintItem[] = [];
 
+    faMagnifyingGlass = faMagnifyingGlass;
     matchedReports: MatchedReport[] = [];
 
     constructor(
@@ -135,6 +138,11 @@ export class ItemSearchReportsPanelComponent {
 
         this.matchedReports = matchedReports;
     };
+
+    getSearchUri(name: string) {
+        const searchQuery = encodeURIComponent(name).replace(/[\']/gi, '%27');
+        return 'https://na.finalfantasyxiv.com/lodestone/playguide/db/search/?q=' + searchQuery;
+    }
 
     private updateItemsForHighlight(items: MatchedReportSlotItem[], searchItem: string) {
         const effectiveSearchItem = searchItem.toLowerCase();
