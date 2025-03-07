@@ -43,6 +43,8 @@ export class HintSearchPanelComponent {
                 return;
             }
 
+            this.reset();
+
             const slot = report.slots[this.slotNumber];
 
             if (!slot) { return; }
@@ -76,11 +78,13 @@ export class HintSearchPanelComponent {
     }
 
     loadResults() {
+        this.matchedSlots = [];
+
         const matchedSlots: Slot[] = [];
 
         if (this.hint && this.hint.length > 2) {
             this.masterJsonService.masterData?.slots.forEach((slot: Slot) => {
-                if (((slot.type === this.slotType) || this.slotType === 'All') && slot.hint.toLowerCase().includes(this.hint.toLowerCase())) {
+                if (((slot.type === this.slotType) || this.slotType === 'All') && slot.hint.toLowerCase().indexOf(this.hint.toLowerCase()) !== -1) {
                     matchedSlots.push(slot);
                 }
             });
