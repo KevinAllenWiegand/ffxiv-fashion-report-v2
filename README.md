@@ -26,6 +26,6 @@ Please note that, until I figure out how to address this, hosting this site will
 
 ## Running unit tests
 
-Normally you would run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io); however, I have not written/updated any tests beyond the default test files that `ng generate` make.
+Normally you would run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io); however, I have not written/updated any tests beyond the default test files that `ng generate` makes.
 
 So just don't run them.
