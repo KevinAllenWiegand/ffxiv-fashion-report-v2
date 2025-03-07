@@ -43,16 +43,38 @@ export class ItemSearchItemsPanelComponent {
             slots.forEach(slot => {
                 slot.items.forEach(item => {
                     if (item.name.toLowerCase().indexOf(effectiveItemName) != -1) {
-                        matchedItems.push(item);
+                        let found = false;
+
+                        // TODO: Not sure why findIndex isn't working - seems to always return -1.
+                        for (let index = 0; index < matchedItems.length; index++) {
+                            if (matchedItems[index].name !== item.name) { continue; }
+
+                            found = true;
+                            break;
+                        }
+
+                        if (!found) {
+                            matchedItems.push(item);
+                        }
                     }
                 });
             });
 
-            matchedItems.sort();
-            this.matchedItems = matchedItems;
-        }
+            matchedItems.sort((x, y) => {               
+                if (x.name < y.name) {
+                    return -1;
+                }
 
-        this.globalEventService.onSearchItemsComplete.emit(matchedItems);
+                if (x.name > y.name) {
+                    return 1;
+                }
+
+                return 0;
+            });
+
+            this.matchedItems = matchedItems;
+            this.globalEventService.onSearchItemsComplete.emit(matchedItems);
+        }
     }
 
     highlightTerm(itemName: string): SafeHtml {

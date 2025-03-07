@@ -8,3 +8,7 @@
     width: 75%;
     margin: auto auto 10px;
 }
+
+::ng-deep .highlighted {
+    color: green;
+}

@@ -2,6 +2,24 @@
     <div class="header">Report Results</div>
 
     <div class="items">
+        @for (report of matchedReports; track report.week) {
+            Week {{ report.week }} - {{ report.date }}<br />
 
+            <ul>
+                @for (slot of report.slots; track slot.slotHint) {
+                    <li>{{ slot.slotType }} - {{ slot.slotHint }}</li>
+
+                    <ul>
+                        @for (item of slot.items; track item) {
+                            @if (item.highlighted) {
+                                <li><span class="highlighted">{{ item.name }}</span></li>
+                            } @else {
+                                <li>{{ item.name }}</li>
+                            }
+                        }
+                    </ul>
+                }
+            </ul>
+        }
     </div>
 </div>
