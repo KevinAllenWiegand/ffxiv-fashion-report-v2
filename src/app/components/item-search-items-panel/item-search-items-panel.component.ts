@@ -73,8 +73,9 @@ export class ItemSearchItemsPanelComponent {
             });
 
             this.matchedItems = matchedItems;
-            this.globalEventService.onSearchItemsComplete.emit(matchedItems);
         }
+
+        this.globalEventService.onSearchItemsComplete.emit(matchedItems);
     }
 
     highlightTerm(itemName: string): SafeHtml {

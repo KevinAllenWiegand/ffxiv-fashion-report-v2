@@ -7,6 +7,7 @@ import { HintItem, Report } from '../common/types';
 export class GlobalEventService {
     onResetSlots = new EventEmitter<void>();
     onLoadReportSlot = new EventEmitter<Report>();
+    onLoadReport = new EventEmitter<number>();
     onSearchItems = new EventEmitter<string>();
     onSearchItemsComplete = new EventEmitter<HintItem[]>();
 }

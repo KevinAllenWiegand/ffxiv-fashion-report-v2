@@ -3,7 +3,10 @@
 
     <div class="items">
         @for (report of matchedReports; track report.week) {
-            Week {{ report.week }} - {{ report.date }}<br />
+            Week {{ report.week }} - {{ report.date }}
+            <a title='View Report'><fa-icon [icon]="faMagnifyingGlass" class="load-report" (click)="loadReport(report.week)"></fa-icon></a>
+            
+            <br />
 
             <ul>
                 @for (slot of report.slots; track slot.slotHint) {
@@ -23,6 +26,8 @@
                     </ul>
                 }
             </ul>
+        } @empty {
+            <div class="result-slot-title">No Results</div>
         }
     </div>
 </div>

@@ -19,3 +19,10 @@
     border-radius: 5pt;
     border: 1px solid #caaf75;
 }
+
+.result-slot-title {
+    padding-left: 8pt;
+    font-size: 1em;
+    font-weight: bold;
+    color: #d8728f;
+}

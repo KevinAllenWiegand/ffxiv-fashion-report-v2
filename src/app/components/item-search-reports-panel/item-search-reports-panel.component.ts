@@ -144,6 +144,10 @@ export class ItemSearchReportsPanelComponent {
         return 'https://na.finalfantasyxiv.com/lodestone/playguide/db/search/?q=' + searchQuery;
     }
 
+    loadReport(week: number) {
+        this.globalEventService.onLoadReport.emit(week);
+    }
+
     private updateItemsForHighlight(items: MatchedReportSlotItem[], searchItem: string) {
         const effectiveSearchItem = searchItem.toLowerCase();
 
