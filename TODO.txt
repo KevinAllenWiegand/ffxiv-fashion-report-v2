@@ -1,2 +1,0 @@
-Add in the admin scripts (do we update BOTH master.json locations? - this would eliminate the need for rebuilds)
-	Actually, if we just update the one in Public, and then copy it over to the dist folder....that would suffice.
