@@ -19705,6 +19705,29 @@
                     "hint": "Robed In Resistance"
                 }
             ]
+        },
+        {
+            "week": 391,
+            "date": "2025-07-25",
+            "theme": "Coeurled Up With A Book",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Leaping Leopards"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Bookworm"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "C'est Chic"
+                },
+                {
+                    "type": "Wrist",
+                    "hint": "Simply Gorgeous"
+                }
+            ]
         }
     ]
 }
