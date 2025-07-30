@@ -11780,6 +11780,21 @@
         },
         {
             "type": "Ring",
+            "hint": "Veteran Of The Land",
+            "items": [
+                {
+                    "name": "Master Botanist's Ring"
+                },
+                {
+                    "name": "Master Fisher's Ring"
+                },
+                {
+                    "name": "Master Miner's Ring"
+                }
+            ]
+        },
+        {
+            "type": "Ring",
             "hint": "Veteran Of War",
             "items": [
                 {
@@ -19726,6 +19741,29 @@
                 {
                     "type": "Wrist",
                     "hint": "Simply Gorgeous"
+                }
+            ]
+        },
+        {
+            "week": 392,
+            "date": "2025-08-01",
+            "theme": "Noble Pack Hunter",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Hungry Like The Wolf"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Noblesse Oblige"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Natural Beauty"
+                },
+                {
+                    "type": "Ring",
+                    "hint": "Veteran Of The Land"
                 }
             ]
         }
