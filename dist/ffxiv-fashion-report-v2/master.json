@@ -19766,6 +19766,29 @@
                     "hint": "Veteran Of The Land"
                 }
             ]
+        },
+        {
+            "week": 393,
+            "date": "2025-08-08",
+            "theme": "Jester Magician",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Motley Crew"
+                },
+                {
+                    "type": "Body",
+                    "hint": "I Believe In Magic"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Fits Like A Wristglove"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Do Rats Fly"
+                }
+            ]
         }
     ]
 }
