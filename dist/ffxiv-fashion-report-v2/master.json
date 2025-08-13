@@ -19789,6 +19789,29 @@
                     "hint": "Do Rats Fly"
                 }
             ]
+        },
+        {
+            "week": 394,
+            "date": "2025-08-15",
+            "theme": "Advanced Explorer",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Future Arma"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "To Adventure"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Short Boots"
+                },
+                {
+                    "type": "Neck",
+                    "hint": "Coiled Secondly"
+                }
+            ]
         }
     ]
 }
