@@ -19812,6 +19812,29 @@
                     "hint": "Coiled Secondly"
                 }
             ]
+        },
+        {
+            "week": 395,
+            "date": "2025-08-22",
+            "theme": "Ritual Imperial",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "The Last Straw"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Ritual Wrap"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Imperial Couture"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Toward The Heavens"
+                }
+            ]
         }
     ]
 }
