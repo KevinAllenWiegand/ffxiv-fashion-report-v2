@@ -19835,6 +19835,29 @@
                     "hint": "Toward The Heavens"
                 }
             ]
+        },
+        {
+            "week": 396,
+            "date": "2025-08-29",
+            "theme": "Heavenly Subject of Allag",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Allagan Attack"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Hand In Halfglove"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Toward The Heavens"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Fashionably Late Allagan"
+                }
+            ]
         }
     ]
 }
