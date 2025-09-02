@@ -19858,6 +19858,29 @@
                     "hint": "Fashionably Late Allagan"
                 }
             ]
+        },
+        {
+            "week": 397,
+            "date": "2025-09-05",
+            "theme": "Dainty Mountain Combatant",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Bloodsands"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Up In Armlets"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Mountain Bred"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Cute As A Button"
+                }
+            ]
         }
     ]
 }
