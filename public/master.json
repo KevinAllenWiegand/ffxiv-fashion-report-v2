@@ -19881,6 +19881,29 @@
                     "hint": "Cute As A Button"
                 }
             ]
+        },
+        {
+            "week": 398,
+            "date": "2025-09-12",
+            "theme": "Peak Piratical Restorer",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Restoration Regalia"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Fashion Bandit"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Shivering Timbers"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Adventure First Worn"
+                }
+            ]
         }
     ]
 }
