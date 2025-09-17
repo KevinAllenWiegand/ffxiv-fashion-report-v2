@@ -659,6 +659,33 @@
         },
         {
             "type": "Head",
+            "hint": "Foundation's Forefront",
+            "items": [
+                {
+                    "name": "Neo-Ishgardian Cap Of Aiming"
+                },
+                {
+                    "name": "Neo-Ishgardian Cap Of Fending"
+                },
+                {
+                    "name": "Neo-Ishgardian Cap Of Healing"
+                },
+                {
+                    "name": "Neo-Ishgardian Cap Of Maiming"
+                },
+                {
+                    "name": "Neo-Ishgardian Hat Of Casting"
+                },
+                {
+                    "name": "Neo-Ishgardian Hat Of Scouting"
+                },
+                {
+                    "name": "Neo-Ishgardian Hat Of Striking"
+                }
+            ]
+        },
+        {
+            "type": "Head",
             "hint": "Foxy Features",
             "items": [
                 {
@@ -8598,6 +8625,33 @@
                 },
                 {
                     "name": "Late Allagan Sollerets Of Striking"
+                }
+            ]
+        },
+        {
+            "type": "Feet",
+            "hint": "Foundation's Forefront",
+            "items": [
+                {
+                    "name": "Neo-Ishgardian Boots Of Aiming"
+                },
+                {
+                    "name": "Neo-Ishgardian Boots Of Casting"
+                },
+                {
+                    "name": "Neo-Ishgardian Boots Of Healing"
+                },
+                {
+                    "name": "Neo-Ishgardian Boots Of Maiming"
+                },
+                {
+                    "name": "Neo-Ishgardian Boots Of Striking"
+                },
+                {
+                    "name": "Neo-Ishgardian Sollerets Of Fending"
+                },
+                {
+                    "name": "Neo-Ishgardian Sollerets Of Scouting"
                 }
             ]
         },
@@ -19902,6 +19956,29 @@
                 {
                     "type": "Feet",
                     "hint": "Adventure First Worn"
+                }
+            ]
+        },
+        {
+            "week": 399,
+            "date": "2025-09-19",
+            "theme": "Far Eastern Foundation",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Foundation's Forefront"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Hingan Nights"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Foundation's Forefront"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Foundation's Forefront"
                 }
             ]
         }
