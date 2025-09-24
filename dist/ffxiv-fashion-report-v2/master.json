@@ -19981,6 +19981,29 @@
                     "hint": "Foundation's Forefront"
                 }
             ]
+        },
+        {
+            "week": 400,
+            "date": "2025-09-26",
+            "theme": "Feathered Fighter",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "These Broken Wings"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Skirts Of A Feather"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "NieR And Far"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Devil In Denim"
+                }
+            ]
         }
     ]
 }
