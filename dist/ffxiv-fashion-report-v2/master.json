@@ -20004,6 +20004,29 @@
                     "hint": "Devil In Denim"
                 }
             ]
+        },
+        {
+            "week": 401,
+            "date": "2025-10-03",
+            "theme": "Big City Gambler",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Fashionably Late Allagan"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Simply Saucer"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Smallfolk"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "\"Fringe\" Benefits"
+                }
+            ]
         }
     ]
 }
