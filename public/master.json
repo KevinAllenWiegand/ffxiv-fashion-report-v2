@@ -20083,6 +20083,29 @@
                     "hint": "Dueling Duelist"
                 }
             ]
+        },
+        {
+            "week": 403,
+            "date": "2025-10-17",
+            "theme": "Fluffy Fighter",
+            "slots": [
+                {
+                    "type": "Hands",
+                    "hint": "In Sheep's Clothing"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "NieR And Far"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Fur And Fluff"
+                },
+                {
+                    "type": "Ring",
+                    "hint": "The Son"
+                }
+            ]
         }
     ]
 }
