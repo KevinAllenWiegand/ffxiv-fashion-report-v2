@@ -20106,6 +20106,29 @@
                     "hint": "The Son"
                 }
             ]
+        },
+        {
+            "week": 404,
+            "date": "2025-10-24",
+            "theme": "Skybound Laborer",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Wild Whiskers"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Pirates In The Sky"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "\"Labor\" Of Love"
+                },
+                {
+                    "type": "Ring",
+                    "hint": "Veteran Of The Land"
+                }
+            ]
         }
     ]
 }
