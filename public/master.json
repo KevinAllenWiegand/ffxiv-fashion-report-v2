@@ -20129,6 +20129,29 @@
                     "hint": "Veteran Of The Land"
                 }
             ]
+        },
+        {
+            "week": 405,
+            "date": "2025-10-31",
+            "theme": "Genteel Jester",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "A Spot Of Sport"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Well-Suited"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Motley Crew"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "On Ceremony"
+                }
+            ]
         }
     ]
 }
