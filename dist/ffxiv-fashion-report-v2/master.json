@@ -860,6 +860,75 @@
         },
         {
             "type": "Head",
+            "hint": "Ivalice Accoutrements",
+            "items": [
+                {
+                    "name": "Ivalician Archer's Headband"
+                },
+                {
+                    "name": "Ivalician Arithmetician's Monocle"
+                },
+                {
+                    "name": "Ivalician Ark Knight's Helm"
+                },
+                {
+                    "name": "Ivalician Astrologer's Eyeglasses"
+                },
+                {
+                    "name": "Ivalician Brave's Circlet"
+                },
+                {
+                    "name": "Ivalician Chemist's Monocle"
+                },
+                {
+                    "name": "Ivalician Enchanter's Eyeglasses"
+                },
+                {
+                    "name": "Ivalician Fusilier's Mask"
+                },
+                {
+                    "name": "Ivalician Holy Knight's Circlet"
+                },
+                {
+                    "name": "Ivalician Lancer's Headgear"
+                },
+                {
+                    "name": "Ivalician Martialist's Hachimaki"
+                },
+                {
+                    "name": "Ivalician Mercenary's Circlet"
+                },
+                {
+                    "name": "Ivalician Mystic's Hat"
+                },
+                {
+                    "name": "Ivalician Oracle's Mask"
+                },
+                {
+                    "name": "Ivalician Royal Knight's Circlet"
+                },
+                {
+                    "name": "Ivalician Samurai's Hachimaki"
+                },
+                {
+                    "name": "Ivalician Shikari's Bandana"
+                },
+                {
+                    "name": "Ivalician Sky Pirate's Hat"
+                },
+                {
+                    "name": "Ivalician Squire's Headgear"
+                },
+                {
+                    "name": "Ivalician Thief's Headband"
+                },
+                {
+                    "name": "Ivalician Uhlan's Bandana"
+                }
+            ]
+        },
+        {
+            "type": "Head",
             "hint": "Keeping Company",
             "items": [
                 {
@@ -1265,7 +1334,7 @@
         },
         {
             "type": "Head",
-            "hint": "Pocketfull O' Pansies",
+            "hint": "Pocketful O' Pansies",
             "items": [
                 {
                     "name": "Black Viola Corsage"
@@ -1298,7 +1367,7 @@
         },
         {
             "type": "Head",
-            "hint": "Pocketful O' Pansies",
+            "hint": "Pocketfull O' Pansies",
             "items": [
                 {
                     "name": "Black Viola Corsage"
@@ -3057,6 +3126,75 @@
                 },
                 {
                     "name": "Weathered Shepherd's Tunic"
+                }
+            ]
+        },
+        {
+            "type": "Body",
+            "hint": "Ivalice Accoutrements",
+            "items": [
+                {
+                    "name": "Ivalician Archer's Jacket"
+                },
+                {
+                    "name": "Ivalician Arithmetician's Robe"
+                },
+                {
+                    "name": "Ivalician Ark Knight's Surcoat"
+                },
+                {
+                    "name": "Ivalician Astrologer's Tunic"
+                },
+                {
+                    "name": "Ivalician Brave's Jacket"
+                },
+                {
+                    "name": "Ivalician Chemist's Robe"
+                },
+                {
+                    "name": "Ivalician Enchanter's Tunic"
+                },
+                {
+                    "name": "Ivalician Fusilier's Jacket"
+                },
+                {
+                    "name": "Ivalician Holy Knight's Armor"
+                },
+                {
+                    "name": "Ivalician Lancer's Tunic"
+                },
+                {
+                    "name": "Ivalician Martialist's Dogi"
+                },
+                {
+                    "name": "Ivalician Mercenary's Jacket"
+                },
+                {
+                    "name": "Ivalician Mystic's Coat"
+                },
+                {
+                    "name": "Ivalician Oracle's Coat"
+                },
+                {
+                    "name": "Ivalician Royal Knight's Armor"
+                },
+                {
+                    "name": "Ivalician Samurai's Dogi"
+                },
+                {
+                    "name": "Ivalician Shikari's Jacket"
+                },
+                {
+                    "name": "Ivalician Sky Pirate's Jacket"
+                },
+                {
+                    "name": "Ivalician Squire's Tunic"
+                },
+                {
+                    "name": "Ivalician Thief's Jacket"
+                },
+                {
+                    "name": "Ivalician Uhlan's Jacket"
                 }
             ]
         },
@@ -5216,6 +5354,75 @@
         },
         {
             "type": "Hands",
+            "hint": "Ivalice Accoutrements",
+            "items": [
+                {
+                    "name": "Ivalician Archer's Gloves"
+                },
+                {
+                    "name": "Ivalician Arithmetician's Gloves"
+                },
+                {
+                    "name": "Ivalician Ark Knight's Gauntlets"
+                },
+                {
+                    "name": "Ivalician Astrologer's Gloves"
+                },
+                {
+                    "name": "Ivalician Brave's Gauntlets"
+                },
+                {
+                    "name": "Ivalician Chemist's Gloves"
+                },
+                {
+                    "name": "Ivalician Enchanter's Gloves"
+                },
+                {
+                    "name": "Ivalician Fusilier's Gloves"
+                },
+                {
+                    "name": "Ivalician Holy Knight's Gloves"
+                },
+                {
+                    "name": "Ivalician Lancer's Gauntlets"
+                },
+                {
+                    "name": "Ivalician Martialist's Kote"
+                },
+                {
+                    "name": "Ivalician Mercenary's Gauntlets"
+                },
+                {
+                    "name": "Ivalician Mystic's Halfgloves"
+                },
+                {
+                    "name": "Ivalician Oracle's Halfgloves"
+                },
+                {
+                    "name": "Ivalician Royal Knight's Gloves"
+                },
+                {
+                    "name": "Ivalician Samurai's Kote"
+                },
+                {
+                    "name": "Ivalician Shikari's Fingerless Gloves"
+                },
+                {
+                    "name": "Ivalician Sky Pirate's Plunder"
+                },
+                {
+                    "name": "Ivalician Squire's Gauntlets"
+                },
+                {
+                    "name": "Ivalician Thief's Gloves"
+                },
+                {
+                    "name": "Ivalician Uhlan's Fingerless Gloves"
+                }
+            ]
+        },
+        {
+            "type": "Hands",
             "hint": "Leader Of The Ringband",
             "items": [
                 {
@@ -6741,6 +6948,75 @@
                 },
                 {
                     "name": "Imperial Longkilt Of Maiming"
+                }
+            ]
+        },
+        {
+            "type": "Legs",
+            "hint": "Ivalice Accoutrements",
+            "items": [
+                {
+                    "name": "Ivalician Archer's Bottoms"
+                },
+                {
+                    "name": "Ivalician Arithmetician's Bottoms"
+                },
+                {
+                    "name": "Ivalician Ark Knight's Bottoms"
+                },
+                {
+                    "name": "Ivalician Astrologer's Slops"
+                },
+                {
+                    "name": "Ivalician Brave's Trousers"
+                },
+                {
+                    "name": "Ivalician Chemist's Bottoms"
+                },
+                {
+                    "name": "Ivalician Enchanter's Slops"
+                },
+                {
+                    "name": "Ivalician Fusilier's Slops"
+                },
+                {
+                    "name": "Ivalician Holy Knight's Trousers"
+                },
+                {
+                    "name": "Ivalician Lancer's Trousers"
+                },
+                {
+                    "name": "Ivalician Martialist's Tsutsu-hakama"
+                },
+                {
+                    "name": "Ivalician Mercenary's Trousers"
+                },
+                {
+                    "name": "Ivalician Mystic's Bottoms"
+                },
+                {
+                    "name": "Ivalician Oracle's Bottoms"
+                },
+                {
+                    "name": "Ivalician Royal Knight's Trousers"
+                },
+                {
+                    "name": "Ivalician Samurai's Tsutsu-hakama"
+                },
+                {
+                    "name": "Ivalician Shikari's Trousers"
+                },
+                {
+                    "name": "Ivalician Sky Pirate's Trousers"
+                },
+                {
+                    "name": "Ivalician Squire's Trousers"
+                },
+                {
+                    "name": "Ivalician Thief's Bottoms"
+                },
+                {
+                    "name": "Ivalician Uhlan's Trousers"
                 }
             ]
         },
@@ -8964,6 +9240,75 @@
                 },
                 {
                     "name": "Scion Adventurer's Boots"
+                }
+            ]
+        },
+        {
+            "type": "Feet",
+            "hint": "Ivalice Accoutrements",
+            "items": [
+                {
+                    "name": "Ivalician Archer's Boots"
+                },
+                {
+                    "name": "Ivalician Arithmetician's Shoes"
+                },
+                {
+                    "name": "Ivalician Ark Knight's Greaves"
+                },
+                {
+                    "name": "Ivalician Astrologer's Boots"
+                },
+                {
+                    "name": "Ivalician Brave's Greaves"
+                },
+                {
+                    "name": "Ivalician Chemist's Shoes"
+                },
+                {
+                    "name": "Ivalician Enchanter's Boots"
+                },
+                {
+                    "name": "Ivalician Fusilier's Boots"
+                },
+                {
+                    "name": "Ivalician Holy Knight's Boots"
+                },
+                {
+                    "name": "Ivalician Lancer's Thighboots"
+                },
+                {
+                    "name": "Ivalician Martialist's Kyahan"
+                },
+                {
+                    "name": "Ivalician Mercenary's Greaves"
+                },
+                {
+                    "name": "Ivalician Mystic's Shoes"
+                },
+                {
+                    "name": "Ivalician Oracle's Shoes"
+                },
+                {
+                    "name": "Ivalician Royal Knight's Boots"
+                },
+                {
+                    "name": "Ivalician Samurai's Kyahan"
+                },
+                {
+                    "name": "Ivalician Shikari's Greaves"
+                },
+                {
+                    "name": "Ivalician Sky Pirate's Shoes"
+                },
+                {
+                    "name": "Ivalician Squire's Thighboots"
+                },
+                {
+                    "name": "Ivalician Thief's Boots"
+                },
+                {
+                    "name": "Ivalician Uhlan's Greaves"
                 }
             ]
         },
@@ -20150,6 +20495,29 @@
                 {
                     "type": "Feet",
                     "hint": "On Ceremony"
+                }
+            ]
+        },
+        {
+            "week": 406,
+            "date": "2025-11-07",
+            "theme": "Legendary Meetings",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Ivalice Accoutrements"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Ivalice Accoutrements"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Ivalice Accoutrements"
+                },
+                {
+                    "type": "Ear",
+                    "hint": "The Coil That Binds"
                 }
             ]
         }
