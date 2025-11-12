@@ -20520,6 +20520,29 @@
                     "hint": "The Coil That Binds"
                 }
             ]
+        },
+        {
+            "week": 407,
+            "date": "2025-11-14",
+            "theme": "Academic At Ease",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Rest & Relaxation"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Skalla Back"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Leader Of The Ringband"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Ride The Tides"
+                }
+            ]
         }
     ]
 }
