@@ -20543,6 +20543,29 @@
                     "hint": "Ride The Tides"
                 }
             ]
+        },
+        {
+            "week": 408,
+            "date": "2025-11-21",
+            "theme": "Horned And Tempered",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Behorned"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Who Needs Sleeves"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "White-Glove"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Primal Revival"
+                }
+            ]
         }
     ]
 }
