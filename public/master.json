@@ -20566,6 +20566,29 @@
                     "hint": "Primal Revival"
                 }
             ]
+        },
+        {
+            "week": 409,
+            "date": "2025-11-28",
+            "theme": "HuntinG UniT",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Pocketful O' Pansies"
+                },
+                {
+                    "type": "Body",
+                    "hint": "NieR and Far"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Skirts Of A Feather"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Monster Hunt"
+                }
+            ]
         }
     ]
 }
