@@ -20592,6 +20592,29 @@
                     "hint": "Monster Hunt"
                 }
             ]
+        },
+        {
+            "week": 410,
+            "date": "2025-12-05",
+            "theme": "Futuristic Resistance",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Future Arma"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Robed In Resistance"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "To Adventure"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Monster Hunt"
+                }
+            ]
         }
     ]
 }
