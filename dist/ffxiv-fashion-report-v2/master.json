@@ -2435,6 +2435,15 @@
         },
         {
             "type": "Body",
+            "hint": "Casual Days",
+            "items": [
+                {
+                    "name": "Casual Jacket"
+                }
+            ]
+        },
+        {
+            "type": "Body",
             "hint": "Chimerican Woman",
             "items": [
                 {
@@ -6323,6 +6332,15 @@
         },
         {
             "type": "Legs",
+            "hint": "Casual Days",
+            "items": [
+                {
+                    "name": "Casual Halfslops"
+                }
+            ]
+        },
+        {
+            "type": "Legs",
             "hint": "Chausses Of Choice",
             "items": [
                 {
@@ -8748,6 +8766,15 @@
                 },
                 {
                     "name": "Toadskin Workboots"
+                }
+            ]
+        },
+        {
+            "type": "Feet",
+            "hint": "Casual Days",
+            "items": [
+                {
+                    "name": "Casual Boots"
                 }
             ]
         },
@@ -20596,6 +20623,29 @@
         {
             "week": 410,
             "date": "2025-12-05",
+            "theme": "Daily Casual",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Casual Days"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Casual Days"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Casual Days"
+                },
+                {
+                    "type": "Ear",
+                    "hint": "Proto Posh"
+                }
+            ]
+        },
+        {
+            "week": 411,
+            "date": "2025-12-12",
             "theme": "Futuristic Resistance",
             "slots": [
                 {
@@ -20613,6 +20663,29 @@
                 {
                     "type": "Feet",
                     "hint": "Monster Hunt"
+                }
+            ]
+        },
+        {
+            "week": 412,
+            "date": "2025-12-19",
+            "theme": "Ironworks Cultural Investigator",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Cid Approved"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Simply Saucer"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "A Pirate's Life"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Omega Ornamentation"
                 }
             ]
         }
