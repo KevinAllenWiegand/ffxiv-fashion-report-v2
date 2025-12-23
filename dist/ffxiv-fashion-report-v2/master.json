@@ -20688,6 +20688,29 @@
                     "hint": "Omega Ornamentation"
                 }
             ]
+        },
+        {
+            "week": 413,
+            "date": "2025-12-26",
+            "theme": "Working Warden",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Cap In Hand"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Turn-Coatee"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Guardian's Garb"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Tip O' The Arhat"
+                }
+            ]
         }
     ]
 }
