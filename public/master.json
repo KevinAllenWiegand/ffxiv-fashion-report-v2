@@ -1544,6 +1544,33 @@
         },
         {
             "type": "Head",
+            "hint": "Ronkan Robes",
+            "items": [
+                {
+                    "name": "Ronkan Bandana of Scouting"
+                },
+                {
+                    "name": "Ronkan Headband of Aiming"
+                },
+                {
+                    "name": "Ronkan Headband of Striking"
+                },
+                {
+                    "name": "Ronkan Helm of Fending"
+                },
+                {
+                    "name": "Ronkan Helm of Maiming"
+                },
+                {
+                    "name": "Ronkan Visor of Casting"
+                },
+                {
+                    "name": "Ronkan Visor of Healing"
+                }
+            ]
+        },
+        {
+            "type": "Head",
             "hint": "Rose For The Occasion",
             "items": [
                 {
@@ -20709,6 +20736,29 @@
                 {
                     "type": "Feet",
                     "hint": "Tip O' The Arhat"
+                }
+            ]
+        },
+        {
+            "week": 414,
+            "date": "2026-01-02",
+            "theme": "Bloom Of Ancient Days",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Ronkan Robes"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Winter Wonderland"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Floral Delight"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "In The \"Fold\""
                 }
             ]
         }
