@@ -20761,6 +20761,29 @@
                     "hint": "In The \"Fold\""
                 }
             ]
+        },
+        {
+            "week": 415,
+            "date": "2026-01-09",
+            "theme": "FalL Into SocietY",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Autumn Chill"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "NieR And Far"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "\"Groin\" Pains"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Dressed For Success"
+                }
+            ]
         }
     ]
 }
