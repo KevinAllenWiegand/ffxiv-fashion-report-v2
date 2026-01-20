@@ -548,6 +548,48 @@
         },
         {
             "type": "Head",
+            "hint": "Dragon's Head",
+            "items": [
+                {
+                    "name": "Antiquated Trueblood Armet"
+                },
+                {
+                    "name": "Black Dragon Kabuto"
+                },
+                {
+                    "name": "Crimson Dragon Kabuto"
+                },
+                {
+                    "name": "Dragon Kabuto"
+                },
+                {
+                    "name": "Dragonlancer's Mesail"
+                },
+                {
+                    "name": "Golden Dragon Kabuto"
+                },
+                {
+                    "name": "Helm Of The Falling Dragon"
+                },
+                {
+                    "name": "Helm Of The Rising Dragon"
+                },
+                {
+                    "name": "Manganese Helm Of The Falling Dragon"
+                },
+                {
+                    "name": "Manganese Helm Of The Rising Dragon"
+                },
+                {
+                    "name": "Weathered Pteroslvaer Armet"
+                },
+                {
+                    "name": "Wyrm's Armet"
+                }
+            ]
+        },
+        {
+            "type": "Head",
             "hint": "Face Of The Forest",
             "items": [
                 {
@@ -20782,6 +20824,29 @@
                 {
                     "type": "Feet",
                     "hint": "Dressed For Success"
+                }
+            ]
+        },
+        {
+            "week": 416,
+            "date": "2026-01-16",
+            "theme": "Masked Dragon",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Dragon's Head"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Coiled Finally"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Coiled Finally"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Coiled Finally"
                 }
             ]
         }
