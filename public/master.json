@@ -1034,6 +1034,15 @@
         },
         {
             "type": "Head",
+            "hint": "Kitty Cat",
+            "items": [
+                {
+                    "name": "Felicitous Hood"
+                }
+            ]
+        },
+        {
+            "type": "Head",
             "hint": "Leaping Leopards",
             "items": [
                 {
@@ -5504,6 +5513,15 @@
         },
         {
             "type": "Hands",
+            "hint": "Kitty Cat",
+            "items": [
+                {
+                    "name": "Felicitous Mitts"
+                }
+            ]
+        },
+        {
+            "type": "Hands",
             "hint": "Leader Of The Ringband",
             "items": [
                 {
@@ -8730,6 +8748,30 @@
         {
             "type": "Feet",
             "hint": "Avant Garde",
+            "items": [
+                {
+                    "name": "Aurum Leg Guards"
+                },
+                {
+                    "name": "Goatskin Leg Guards"
+                },
+                {
+                    "name": "Noble's Leg Guards"
+                },
+                {
+                    "name": "Raptorskin Leg Guards"
+                },
+                {
+                    "name": "Toadskin Leg Guards"
+                },
+                {
+                    "name": "Vintage Thighboots"
+                }
+            ]
+        },
+        {
+            "type": "Feet",
+            "hint": "Avant-Garde",
             "items": [
                 {
                     "name": "Aurum Leg Guards"
@@ -20847,6 +20889,29 @@
                 {
                     "type": "Legs",
                     "hint": "Coiled Finally"
+                }
+            ]
+        },
+        {
+            "week": 417,
+            "date": "2026-01-23",
+            "theme": "Black Cat Chic",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Kitty Cat"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Primal Revival"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Kitty Cat"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Avant-Garde"
                 }
             ]
         }
