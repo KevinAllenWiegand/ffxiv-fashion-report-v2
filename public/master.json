@@ -7442,6 +7442,15 @@
         },
         {
             "type": "Legs",
+            "hint": "Noir",
+            "items": [
+                {
+                    "name": "Noir Slacks"
+                }
+            ]
+        },
+        {
+            "type": "Legs",
             "hint": "Old Country",
             "items": [
                 {
@@ -20912,6 +20921,29 @@
                 {
                     "type": "Feet",
                     "hint": "Avant-Garde"
+                }
+            ]
+        },
+        {
+            "week": 418,
+            "date": "2026-01-30",
+            "theme": "Jester-In-Near-East",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Acton Locally"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Noir"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Near Eastern Nights"
+                },
+                {
+                    "type": "Wrist",
+                    "hint": "The Father"
                 }
             ]
         }
