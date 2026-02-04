@@ -20946,6 +20946,29 @@
                     "hint": "The Father"
                 }
             ]
+        },
+        {
+            "week": 419,
+            "date": "2026-02-06",
+            "theme": "Cybersailor",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Future Arma"
+                },
+                {
+                    "type": "Body",
+                    "hint": "A Sailor's Life"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Fashionably Late Allagan"
+                },
+                {
+                    "type": "Ring",
+                    "hint": "The Coil That Binds"
+                }
+            ]
         }
     ]
 }
