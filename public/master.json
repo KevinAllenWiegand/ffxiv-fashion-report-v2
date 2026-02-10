@@ -1598,25 +1598,25 @@
             "hint": "Ronkan Robes",
             "items": [
                 {
-                    "name": "Ronkan Bandana of Scouting"
+                    "name": "Ronkan Bandana Of Scouting"
                 },
                 {
-                    "name": "Ronkan Headband of Aiming"
+                    "name": "Ronkan Headband Of Aiming"
                 },
                 {
-                    "name": "Ronkan Headband of Striking"
+                    "name": "Ronkan Headband Of Striking"
                 },
                 {
-                    "name": "Ronkan Helm of Fending"
+                    "name": "Ronkan Helm Of Fending"
                 },
                 {
-                    "name": "Ronkan Helm of Maiming"
+                    "name": "Ronkan Helm Of Maiming"
                 },
                 {
-                    "name": "Ronkan Visor of Casting"
+                    "name": "Ronkan Visor Of Casting"
                 },
                 {
-                    "name": "Ronkan Visor of Healing"
+                    "name": "Ronkan Visor Of Healing"
                 }
             ]
         },
@@ -3827,6 +3827,33 @@
         },
         {
             "type": "Body",
+            "hint": "Ronkan Robes",
+            "items": [
+                {
+                    "name": "Ronkan Coat Of Aiming"
+                },
+                {
+                    "name": "Ronkan Jacket Of Scouting"
+                },
+                {
+                    "name": "Ronkan Mail Of Fending"
+                },
+                {
+                    "name": "Ronkan Mail Of Maiming"
+                },
+                {
+                    "name": "Ronkan Mail Of Striking"
+                },
+                {
+                    "name": "Ronkan Robe Of Casting"
+                },
+                {
+                    "name": "Ronkan Robe Of Healing"
+                }
+            ]
+        },
+        {
+            "type": "Body",
             "hint": "Ryumyaku",
             "items": [
                 {
@@ -5975,6 +6002,33 @@
         },
         {
             "type": "Hands",
+            "hint": "Ronkan Robes",
+            "items": [
+                {
+                    "name": "Ronkan Armguards Of Aiming"
+                },
+                {
+                    "name": "Ronkan Armguards Of Casting"
+                },
+                {
+                    "name": "Ronkan Armguards Of Healing"
+                },
+                {
+                    "name": "Ronkan Armguards Of Maiming"
+                },
+                {
+                    "name": "Ronkan Armguards Of Scouting"
+                },
+                {
+                    "name": "Ronkan Armguards Of Striking"
+                },
+                {
+                    "name": "Ronkan Gauntlets Of Fending"
+                }
+            ]
+        },
+        {
+            "type": "Hands",
             "hint": "Simply Saucer",
             "items": [
                 {
@@ -7824,6 +7878,33 @@
                 },
                 {
                     "name": "Royal Volunteer's Trousers Of Striking"
+                }
+            ]
+        },
+        {
+            "type": "Legs",
+            "hint": "Ronkan Robes",
+            "items": [
+                {
+                    "name": "Ronkan Breeches Of Fending"
+                },
+                {
+                    "name": "Ronkan Breeches Of Striking"
+                },
+                {
+                    "name": "Ronkan Tights Of Casting"
+                },
+                {
+                    "name": "Ronkan Tights Of Healing"
+                },
+                {
+                    "name": "Ronkan Trousers Of Aiming"
+                },
+                {
+                    "name": "Ronkan Trousers Of Maiming"
+                },
+                {
+                    "name": "Ronkan Trousers Of Scouting"
                 }
             ]
         },
@@ -10047,6 +10128,33 @@
                 },
                 {
                     "name": "Royal Volunteer's Thighboots Of Healing"
+                }
+            ]
+        },
+        {
+            "type": "Feet",
+            "hint": "Ronkan Robes",
+            "items": [
+                {
+                    "name": "Ronkan Boots Of Fending"
+                },
+                {
+                    "name": "Ronkan Shoes Of Casting"
+                },
+                {
+                    "name": "Ronkan Shoes Of Healing"
+                },
+                {
+                    "name": "Ronkan Thighboots Of Aiming"
+                },
+                {
+                    "name": "Ronkan Thighboots Of Maiming"
+                },
+                {
+                    "name": "Ronkan Thighboots Of Scouting"
+                },
+                {
+                    "name": "Ronkan Thighboots Of Striking"
                 }
             ]
         },
@@ -20967,6 +21075,29 @@
                 {
                     "type": "Ring",
                     "hint": "The Coil That Binds"
+                }
+            ]
+        },
+        {
+            "week": 420,
+            "date": "2026-02-13",
+            "theme": "Knights Of Eld",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Ronkan Robes"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Ronkan Robes"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Ronkan Robes"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Ronkan Robes"
                 }
             ]
         }
