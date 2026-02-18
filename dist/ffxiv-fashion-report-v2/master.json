@@ -21100,6 +21100,29 @@
                     "hint": "Ronkan Robes"
                 }
             ]
+        },
+        {
+            "week": 421,
+            "date": "2026-02-20",
+            "theme": "Clever Commander",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Off To War"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Brain Over Brawn"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "All In The Wrist"
+                },
+                {
+                    "type": "Ring",
+                    "hint": "Jewels Of Violet"
+                }
+            ]
         }
     ]
 }
