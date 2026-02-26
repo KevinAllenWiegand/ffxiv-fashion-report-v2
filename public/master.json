@@ -11333,6 +11333,42 @@
         },
         {
             "type": "Wrist",
+            "hint": "Coiled Finally",
+            "items": [
+                {
+                    "name": "Dreadwyrm Bracelet Of Aiming"
+                },
+                {
+                    "name": "Dreadwyrm Bracelet Of Casting"
+                },
+                {
+                    "name": "Dreadwyrm Bracelet Of Fending"
+                },
+                {
+                    "name": "Dreadwyrm Bracelet Of Healing"
+                },
+                {
+                    "name": "Dreadwyrm Bracelet Of Slaying"
+                },
+                {
+                    "name": "Replica Dreadwyrm Bracelet Of Aiming"
+                },
+                {
+                    "name": "Replica Dreadwyrm Bracelet Of Casting"
+                },
+                {
+                    "name": "Replica Dreadwyrm Bracelet Of Fending"
+                },
+                {
+                    "name": "Replica Dreadwyrm Bracelet Of Healing"
+                },
+                {
+                    "name": "Replica Dreadwyrm Bracelet Of Slaying"
+                }
+            ]
+        },
+        {
+            "type": "Wrist",
             "hint": "Coiled Secondly",
             "items": [
                 {
@@ -21121,6 +21157,29 @@
                 {
                     "type": "Ring",
                     "hint": "Jewels Of Violet"
+                }
+            ]
+        },
+        {
+            "week": 422,
+            "date": "2026-02-27",
+            "theme": "Midwinter Sea Bathing",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Summer Breeze"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Giving The Fingerless"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Adventure First Worn"
+                },
+                {
+                    "type": "Wrist",
+                    "hint": "Coiled Finally"
                 }
             ]
         }
