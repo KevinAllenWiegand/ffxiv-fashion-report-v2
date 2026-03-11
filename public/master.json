@@ -503,6 +503,57 @@
         },
         {
             "type": "Head",
+            "hint": "Crystarium Couture",
+            "items": [
+                {
+                    "name": "Augmented Crystarium Blinder Of Aiming"
+                },
+                {
+                    "name": "Augmented Crystarium Circlet Of Fending"
+                },
+                {
+                    "name": "Augmented Crystarium Circlet Of Maiming"
+                },
+                {
+                    "name": "Augmented Crystarium Halfmask Of Casting"
+                },
+                {
+                    "name": "Augmented Crystarium Hat Of Scouting"
+                },
+                {
+                    "name": "Augmented Crystarium Turban Of Healing"
+                },
+                {
+                    "name": "Augmented Crystarium Turban Of Striking"
+                },
+                {
+                    "name": "Crystarium Blinder Of Aiming"
+                },
+                {
+                    "name": "Crystarium Circlet Of Fending"
+                },
+                {
+                    "name": "Crystarium Circlet Of Maiming"
+                },
+                {
+                    "name": "Crystarium Halfmask Of Casting"
+                },
+                {
+                    "name": "Crystarium Hat Of Scouting"
+                },
+                {
+                    "name": "Crystarium Helm"
+                },
+                {
+                    "name": "Crystarium Turban Of Healing"
+                },
+                {
+                    "name": "Crystarium Turban Of Striking"
+                }
+            ]
+        },
+        {
+            "type": "Head",
             "hint": "Daisy Chain",
             "items": [
                 {
@@ -2679,6 +2730,57 @@
                 },
                 {
                     "name": "Valentione Apron"
+                }
+            ]
+        },
+        {
+            "type": "Body",
+            "hint": "Crystarium Couture",
+            "items": [
+                {
+                    "name": "Augmented Crystarium Coat Of Aiming"
+                },
+                {
+                    "name": "Augmented Crystarium Coat Of Scouting"
+                },
+                {
+                    "name": "Augmented Crystarium Coat Of Striking"
+                },
+                {
+                    "name": "Augmented Crystarium Robe Of Casting"
+                },
+                {
+                    "name": "Augmented Crystarium Robe Of Healing"
+                },
+                {
+                    "name": "Augmented Crystarium Tabard Of Fending"
+                },
+                {
+                    "name": "Augmented Crystarium Tabard Of Maiming"
+                },
+                {
+                    "name": "Crystarium Coat Of Aiming"
+                },
+                {
+                    "name": "Crystarium Coat Of Scouting"
+                },
+                {
+                    "name": "Crystarium Coat Of Striking"
+                },
+                {
+                    "name": "Crystarium Robe Of Casting"
+                },
+                {
+                    "name": "Crystarium Robe Of Healing"
+                },
+                {
+                    "name": "Crystarium Tabard"
+                },
+                {
+                    "name": "Crystarium Tabard Of Fending"
+                },
+                {
+                    "name": "Crystarium Tabard Of Maiming"
                 }
             ]
         },
@@ -4973,6 +5075,57 @@
         },
         {
             "type": "Hands",
+            "hint": "Crystarium Couture",
+            "items": [
+                {
+                    "name": "Augmented Crystarium Gauntlets Of Fending"
+                },
+                {
+                    "name": "Augmented Crystarium Gauntlets Of Maiming"
+                },
+                {
+                    "name": "Augmented Crystarium Gloves Of Aiming"
+                },
+                {
+                    "name": "Augmented Crystarium Gloves Of Healing"
+                },
+                {
+                    "name": "Augmented Crystarium Gloves Of Scouting"
+                },
+                {
+                    "name": "Augmented Crystarium Gloves Of Striking"
+                },
+                {
+                    "name": "Augmented Crystarium Shortgloves Of Casting"
+                },
+                {
+                    "name": "Crystarium Gauntlets"
+                },
+                {
+                    "name": "Crystarium Gauntlets Of Fending"
+                },
+                {
+                    "name": "Crystarium Gauntlets Of Maiming"
+                },
+                {
+                    "name": "Crystarium Gloves Of Aiming"
+                },
+                {
+                    "name": "Crystarium Gloves Of Healing"
+                },
+                {
+                    "name": "Crystarium Gloves Of Scouting"
+                },
+                {
+                    "name": "Crystarium Gloves Of Striking"
+                },
+                {
+                    "name": "Crystarium Shortgloves Of Casting"
+                }
+            ]
+        },
+        {
+            "type": "Hands",
             "hint": "Diabolical",
             "items": [
                 {
@@ -6570,6 +6723,54 @@
                 },
                 {
                     "name": "Replica Dreadwyrm Tonban Of Healing"
+                }
+            ]
+        },
+        {
+            "type": "Legs",
+            "hint": "Crystarium Couture",
+            "items": [
+                {
+                    "name": "Augmented Crystarium Breeches Of Aiming"
+                },
+                {
+                    "name": "Augmented Crystarium Hose Of Casting"
+                },
+                {
+                    "name": "Augmented Crystarium Pantaloons Of Healing"
+                },
+                {
+                    "name": "Augmented Crystarium Pantaloons Of Scouting"
+                },
+                {
+                    "name": "Augmented Crystarium Pantaloons Of Striking"
+                },
+                {
+                    "name": "Augmented Crystarium Trousers Of Fending"
+                },
+                {
+                    "name": "Augmented Crystarium Trousers Of Maiming"
+                },
+                {
+                    "name": "Crystarium Breeches Of Aiming"
+                },
+                {
+                    "name": "Crystarium Hose Of Casting"
+                },
+                {
+                    "name": "Crystarium Pantaloons Of Healing"
+                },
+                {
+                    "name": "Crystarium Pantaloons Of Scouting"
+                },
+                {
+                    "name": "Crystarium Pantaloons Of Striking"
+                },
+                {
+                    "name": "Crystarium Trousers Of Fending"
+                },
+                {
+                    "name": "Crystarium Trousers Of Maiming"
                 }
             ]
         },
@@ -8976,6 +9177,57 @@
             "items": [
                 {
                     "name": "Casual Boots"
+                }
+            ]
+        },
+        {
+            "type": "Feet",
+            "hint": "Crystarium Couture",
+            "items": [
+                {
+                    "name": "Augmented Crystarium Boots Of Aiming"
+                },
+                {
+                    "name": "Augmented Crystarium Boots Of Casting"
+                },
+                {
+                    "name": "Augmented Crystarium Boots Of Scouting"
+                },
+                {
+                    "name": "Augmented Crystarium Shoes Of Healing"
+                },
+                {
+                    "name": "Augmented Crystarium Shoes Of Striking"
+                },
+                {
+                    "name": "Augmented Crystarium Thighboots Of Fending"
+                },
+                {
+                    "name": "Augmented Crystarium Thighboots Of Maiming"
+                },
+                {
+                    "name": "Crystarium Boots Of Aiming"
+                },
+                {
+                    "name": "Crystarium Boots Of Casting"
+                },
+                {
+                    "name": "Crystarium Boots Of Scouting"
+                },
+                {
+                    "name": "Crystarium Greaves"
+                },
+                {
+                    "name": "Crystarium Shoes Of Healing"
+                },
+                {
+                    "name": "Crystarium Shoes Of Striking"
+                },
+                {
+                    "name": "Crystarium Thighboots Of Fending"
+                },
+                {
+                    "name": "Crystarium Thighboots Of Maiming"
                 }
             ]
         },
@@ -21165,6 +21417,29 @@
                 {
                     "type": "Wrist",
                     "hint": "Coiled Finally"
+                }
+            ]
+        },
+        {
+            "week": 423,
+            "date": "2026-03-06",
+            "theme": "Final Bastion's Elite",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Crystarium Couture"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Crystarium Couture"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Crystarium Couture"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Crystarium Couture"
                 }
             ]
         }
