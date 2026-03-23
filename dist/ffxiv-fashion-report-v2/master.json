@@ -167,6 +167,48 @@
         },
         {
             "type": "Head",
+            "hint": "Authentic Allagan",
+            "items": [
+                {
+                    "name": "Allagan Circlet Of Casting"
+                },
+                {
+                    "name": "Allagan Circlet Of Healing"
+                },
+                {
+                    "name": "Allagan Helm"
+                },
+                {
+                    "name": "Allagan Visor Of Aiming"
+                },
+                {
+                    "name": "Allagan Visor Of Maiming"
+                },
+                {
+                    "name": "Allagan Visor Of Striking"
+                },
+                {
+                    "name": "Replica Allagan Circlet Of Casting"
+                },
+                {
+                    "name": "Replica Allagan Circlet Of Healing"
+                },
+                {
+                    "name": "Replica Allagan Helm"
+                },
+                {
+                    "name": "Replica Allagan Visor Of Aiming"
+                },
+                {
+                    "name": "Replica Allagan Visor Of Maiming"
+                },
+                {
+                    "name": "Replica Allagan Visor Of Striking"
+                }
+            ]
+        },
+        {
+            "type": "Head",
             "hint": "Beastly Head-Turner",
             "items": [
                 {
@@ -2349,6 +2391,48 @@
             "items": [
                 {
                     "name": "Ao Dai"
+                }
+            ]
+        },
+        {
+            "type": "Body",
+            "hint": "Authentic Allagan",
+            "items": [
+                {
+                    "name": "Allagan Cuirass Of Aiming"
+                },
+                {
+                    "name": "Allagan Cuirass Of Maiming"
+                },
+                {
+                    "name": "Allagan Cuirass Of Striking"
+                },
+                {
+                    "name": "Allagan Tunic Of Casting"
+                },
+                {
+                    "name": "Allagan Tunic Of Healing"
+                },
+                {
+                    "name": "Heavy Allagan Armor"
+                },
+                {
+                    "name": "Replica Allagan Cuirass Of Aiming"
+                },
+                {
+                    "name": "Replica Allagan Cuirass Of Maiming"
+                },
+                {
+                    "name": "Replica Allagan Cuirass Of Striking"
+                },
+                {
+                    "name": "Replica Allagan Tunic Of Casting"
+                },
+                {
+                    "name": "Replica Allagan Tunic Of Healing"
+                },
+                {
+                    "name": "Replica Heavy Allagan Armor"
                 }
             ]
         },
@@ -6614,6 +6698,48 @@
         },
         {
             "type": "Legs",
+            "hint": "Authentic Allagan",
+            "items": [
+                {
+                    "name": "Allagan Breeches Of Casting"
+                },
+                {
+                    "name": "Allagan Breeches Of Healing"
+                },
+                {
+                    "name": "Allagan Trousers Of Aiming"
+                },
+                {
+                    "name": "Allagan Trousers Of Maiming"
+                },
+                {
+                    "name": "Allagan Trousers Of Striking"
+                },
+                {
+                    "name": "Heavy Allagan Cuisses"
+                },
+                {
+                    "name": "Replica Allagan Breeches Of Casting"
+                },
+                {
+                    "name": "Replica Allagan Breeches Of Healing"
+                },
+                {
+                    "name": "Replica Allagan Trousers Of Aiming"
+                },
+                {
+                    "name": "Replica Allagan Trousers Of Maiming"
+                },
+                {
+                    "name": "Replica Allagan Trousers Of Striking"
+                },
+                {
+                    "name": "Replica Heavy Allagan Cuisses"
+                }
+            ]
+        },
+        {
+            "type": "Legs",
             "hint": "Cast Your Culottes",
             "items": [
                 {
@@ -9033,6 +9159,48 @@
                 },
                 {
                     "name": "Steel-Plated Caligae"
+                }
+            ]
+        },
+        {
+            "type": "Feet",
+            "hint": "Authentic Allagan",
+            "items": [
+                {
+                    "name": "Allagan Boots Of Casting"
+                },
+                {
+                    "name": "Allagan Boots Of Healing"
+                },
+                {
+                    "name": "Allagan Sollerets Of Aiming"
+                },
+                {
+                    "name": "Allagan Sollerets Of Maiming"
+                },
+                {
+                    "name": "Allagan Sollerets Of Striking"
+                },
+                {
+                    "name": "Heavy Allagan Sollerets"
+                },
+                {
+                    "name": "Replica Allagan Boots Of Casting"
+                },
+                {
+                    "name": "Replica Allagan Boots Of Healing"
+                },
+                {
+                    "name": "Replica Allagan Sollerets Of Aiming"
+                },
+                {
+                    "name": "Replica Allagan Sollerets Of Maiming"
+                },
+                {
+                    "name": "Replica Allagan Sollerets Of Striking"
+                },
+                {
+                    "name": "Replica Heavy Allagan Sollerets"
                 }
             ]
         },
@@ -21463,6 +21631,29 @@
                 {
                     "type": "Feet",
                     "hint": "Moccasin City"
+                }
+            ]
+        },
+        {
+            "week": 425,
+            "date": "2026-03-20",
+            "theme": "Empire Awakened",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Authentic Allagan"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Authentic Allagan"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Authentic Allagan"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Authentic Allagan"
                 }
             ]
         }
