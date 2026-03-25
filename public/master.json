@@ -21656,6 +21656,29 @@
                     "hint": "Authentic Allagan"
                 }
             ]
+        },
+        {
+            "week": 426,
+            "date": "2026-03-27",
+            "theme": "First Step Of Big Dream",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "A \"Bone\" To Pick"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Sleepover Style"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Hand In Long Glove"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Adventure First Worn"
+                }
+            ]
         }
     ]
 }
