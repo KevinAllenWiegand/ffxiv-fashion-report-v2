@@ -21679,6 +21679,29 @@
                     "hint": "Adventure First Worn"
                 }
             ]
+        },
+        {
+            "week": 427,
+            "date": "2026-04-03",
+            "theme": "Sorcerous Banditry",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "I Believe In Magic"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "All In The Wrist"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Fashion Bandit"
+                },
+                {
+                    "type": "Ring",
+                    "hint": "Skirts Of A Feather"
+                }
+            ]
         }
     ]
 }
