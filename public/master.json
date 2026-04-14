@@ -21725,6 +21725,29 @@
                     "hint": "Authentic Allagan"
                 }
             ]
+        },
+        {
+            "week": 429,
+            "date": "2026-04-17",
+            "theme": "Cool-Headed Hotfoot",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Under-Armor"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Guardian's Garb"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Devil In Denim"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Fur And Fluff"
+                }
+            ]
         }
     ]
 }
