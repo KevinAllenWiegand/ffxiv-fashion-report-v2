@@ -6914,6 +6914,21 @@
             "hint": "Devil In Denim",
             "items": [
                 {
+                    "name": "Amateur's Breeches"
+                },
+                {
+                    "name": "Cotton Breeches"
+                },
+                {
+                    "name": "Cotton Breeches Of Crafting"
+                },
+                {
+                    "name": "Hempen Breeches"
+                },
+                {
+                    "name": "Ripped Hose"
+                },
+                {
                     "name": "Spring Bottoms"
                 },
                 {
@@ -9656,6 +9671,9 @@
                     "name": "Fur-Lined Dhalmelskin Boots"
                 },
                 {
+                    "name": "Fur-Lined Gazelleskin Boots"
+                },
+                {
                     "name": "Fur-Lined Saurian Boots"
                 },
                 {
@@ -9666,6 +9684,12 @@
                 },
                 {
                     "name": "Reindeer Hooves"
+                },
+                {
+                    "name": "Serpent Elite's Jackboots"
+                },
+                {
+                    "name": "Warrior's Jackboots"
                 }
             ]
         },
