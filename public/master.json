@@ -21772,6 +21772,29 @@
                     "hint": "Fur And Fluff"
                 }
             ]
+        },
+        {
+            "week": 430,
+            "date": "2026-04-24",
+            "theme": "Ritual Of The Mountain",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Ritual Wrap"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Fashion Bandit"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Restoration Regalia"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Imperial Couture"
+                }
+            ]
         }
     ]
 }
