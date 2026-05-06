@@ -21818,6 +21818,29 @@
                     "hint": "Skirts Of A Feather"
                 }
             ]
+        },
+        {
+            "week": 432,
+            "date": "2026-05-08",
+            "theme": "CasuaL DresS",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Keeping It Casual"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "NieR And Far"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Paying The Duckbills"
+                },
+                {
+                    "type": "Wrist",
+                    "hint": "Leather"
+                }
+            ]
         }
     ]
 }
