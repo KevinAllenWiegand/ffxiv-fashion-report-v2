@@ -21841,6 +21841,29 @@
                     "hint": "Leather"
                 }
             ]
+        },
+        {
+            "week": 433,
+            "date": "2026-05-15",
+            "theme": "Mountains Gone Wild",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "The Wild Side"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Do Rats Fly"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Mountain Bred"
+                },
+                {
+                    "type": "Neck",
+                    "hint": "Coiled Secondly"
+                }
+            ]
         }
     ]
 }
