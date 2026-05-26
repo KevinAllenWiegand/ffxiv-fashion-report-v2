@@ -1481,6 +1481,54 @@
         },
         {
             "type": "Head",
+            "hint": "Omega Ornamentation",
+            "items": [
+                {
+                    "name": "Omega Cap Of Healing"
+                },
+                {
+                    "name": "Omega Circlet Of Aiming"
+                },
+                {
+                    "name": "Omega Circlet Of Fending"
+                },
+                {
+                    "name": "Omega Circlet Of Maiming"
+                },
+                {
+                    "name": "Omega Circlet Of Scouting"
+                },
+                {
+                    "name": "Omega Circlet Of Striking"
+                },
+                {
+                    "name": "Omega Eye Mask Of Casting"
+                },
+                {
+                    "name": "Omicron Cap Of Healing"
+                },
+                {
+                    "name": "Omicron Circlet Of Aiming"
+                },
+                {
+                    "name": "Omicron Circlet Of Fending"
+                },
+                {
+                    "name": "Omicron Circlet Of Maiming"
+                },
+                {
+                    "name": "Omicron Circlet Of Scouting"
+                },
+                {
+                    "name": "Omicron Circlet Of Striking"
+                },
+                {
+                    "name": "Omicron Eye Mask Of Casting"
+                }
+            ]
+        },
+        {
+            "type": "Head",
             "hint": "Pocketful O' Pansies",
             "items": [
                 {
@@ -7890,6 +7938,54 @@
                 },
                 {
                     "name": "Shire Preceptor's Hose"
+                }
+            ]
+        },
+        {
+            "type": "Legs",
+            "hint": "Omega Ornamentation",
+            "items": [
+                {
+                    "name": "Omega Trousers Of Aiming"
+                },
+                {
+                    "name": "Omega Trousers Of Casting"
+                },
+                {
+                    "name": "Omega Trousers Of Fending"
+                },
+                {
+                    "name": "Omega Trousers Of Healing"
+                },
+                {
+                    "name": "Omega Trousers Of Maiming"
+                },
+                {
+                    "name": "Omega Trousers Of Scouting"
+                },
+                {
+                    "name": "Omega Trousers Of Striking"
+                },
+                {
+                    "name": "Omicron Trousers Of Aiming"
+                },
+                {
+                    "name": "Omicron Trousers Of Casting"
+                },
+                {
+                    "name": "Omicron Trousers Of Fending"
+                },
+                {
+                    "name": "Omicron Trousers Of Healing"
+                },
+                {
+                    "name": "Omicron Trousers Of Maiming"
+                },
+                {
+                    "name": "Omicron Trousers Of Scouting"
+                },
+                {
+                    "name": "Omicron Trousers Of Striking"
                 }
             ]
         },
@@ -21885,6 +21981,29 @@
                 {
                     "type": "Ear",
                     "hint": "Coiled Finally"
+                }
+            ]
+        },
+        {
+            "week": 435,
+            "date": "2026-05-29",
+            "theme": "Omega's Ally",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "To Adventure"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "In Sheep's Clothing"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Omega Ornamentation"
+                },
+                {
+                    "type": "Ring",
+                    "hint": "Friend To The End"
                 }
             ]
         }
