@@ -22006,6 +22006,29 @@
                     "hint": "Friend To The End"
                 }
             ]
+        },
+        {
+            "week": 436,
+            "date": "2026-06-05",
+            "theme": "Fight Against Fall",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Robed In Resistance"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Autumn Chill"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Cooking Up A Storm"
+                },
+                {
+                    "type": "Wrist",
+                    "hint": "Beautiful Dreamer"
+                }
+            ]
         }
     ]
 }
