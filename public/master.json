@@ -22029,6 +22029,29 @@
                     "hint": "Beautiful Dreamer"
                 }
             ]
+        },
+        {
+            "week": 437,
+            "date": "2026-06-12",
+            "theme": "Primal Expedition",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Mono A Mono"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Primal Revival"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "To Adventure"
+                },
+                {
+                    "type": "Neck",
+                    "hint": "Jewels Of White"
+                }
+            ]
         }
     ]
 }
