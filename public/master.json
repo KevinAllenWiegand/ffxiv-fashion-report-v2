@@ -22052,6 +22052,29 @@
                     "hint": "Jewels Of White"
                 }
             ]
+        },
+        {
+            "week": 438,
+            "date": "2026-06-19",
+            "theme": "Sky Pirate Investigator",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Weird Science"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Sleight Of Hand"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Do Rats Fly"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Adventure First Worn"
+                }
+            ]
         }
     ]
 }
