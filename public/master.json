@@ -22075,6 +22075,29 @@
                     "hint": "Adventure First Worn"
                 }
             ]
+        },
+        {
+            "week": 439,
+            "date": "2026-06-26",
+            "theme": "Knight Of The Blooming Cosmos",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Cosmos In Bloom"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Nails In The Coffin"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "On The Plate"
+                },
+                {
+                    "type": "Neck",
+                    "hint": "Jewels Of Yellow"
+                }
+            ]
         }
     ]
 }
