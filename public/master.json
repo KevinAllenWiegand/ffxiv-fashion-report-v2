@@ -22098,6 +22098,29 @@
                     "hint": "Jewels Of Yellow"
                 }
             ]
+        },
+        {
+            "week": 440,
+            "date": "2026-07-03",
+            "theme": "WWestern Rider",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "The Great Sigmascape"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Riding High"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Go West"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Crystarium Couture"
+                }
+            ]
         }
     ]
 }
