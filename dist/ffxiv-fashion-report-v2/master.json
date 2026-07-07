@@ -22121,6 +22121,29 @@
                     "hint": "Crystarium Couture"
                 }
             ]
+        },
+        {
+            "week": 441,
+            "date": "2026-07-10",
+            "theme": "Mindful Master",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Brain Over Brawn"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Simple Is Best"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Vagabond"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "More Beast Than Man"
+                }
+            ]
         }
     ]
 }
