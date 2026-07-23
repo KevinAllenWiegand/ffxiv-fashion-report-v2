@@ -3329,6 +3329,66 @@
         },
         {
             "type": "Body",
+            "hint": "High Allagan",
+            "items": [
+                {
+                    "name": "Heavy High Allagan Coat"
+                },
+                {
+                    "name": "High Allagan Coat Of Aiming"
+                },
+                {
+                    "name": "High Allagan Coat Of Casting"
+                },
+                {
+                    "name": "High Allagan Coat Of Healing"
+                },
+                {
+                    "name": "High Allagan Cuirass Of Maiming"
+                },
+                {
+                    "name": "High Allagan Cuirass Of Striking"
+                },
+                {
+                    "name": "Prestige Heavy High Allagan Coat"
+                },
+                {
+                    "name": "Prestige High Allagan Coat Of Aiming"
+                },
+                {
+                    "name": "Prestige High Allagan Coat Of Casting"
+                },
+                {
+                    "name": "Prestige High Allagan Coat Of Healing"
+                },
+                {
+                    "name": "Prestige High Allagan Cuirass Of Maiming"
+                },
+                {
+                    "name": "Prestige High Allagan Cuirass Of Striking"
+                },
+                {
+                    "name": "Replica Heavy High Allagan Coat"
+                },
+                {
+                    "name": "Replica High Allagan Coat Of Aiming"
+                },
+                {
+                    "name": "Replica High Allagan Coat Of Casting"
+                },
+                {
+                    "name": "Replica High Allagan Coat Of Healing"
+                },
+                {
+                    "name": "Replica High Allagan Cuirass Of Maiming"
+                },
+                {
+                    "name": "Replica High Allagan Cuirass Of Striking"
+                }
+            ]
+        },
+        {
+            "type": "Body",
             "hint": "Hingan Nights",
             "items": [
                 {
@@ -5660,6 +5720,66 @@
         },
         {
             "type": "Hands",
+            "hint": "High Allagan",
+            "items": [
+                {
+                    "name": " High Allagan Gauntlets Of Striking"
+                },
+                {
+                    "name": "High Allagan Gauntlets Of Fending"
+                },
+                {
+                    "name": "High Allagan Gauntlets Of Maiming"
+                },
+                {
+                    "name": "High Allagan Gloves Of Aiming"
+                },
+                {
+                    "name": "High Allagan Gloves Of Casting"
+                },
+                {
+                    "name": "High Allagan Gloves Of Healing"
+                },
+                {
+                    "name": "Prestige High Allagan Gauntlets Of Fending"
+                },
+                {
+                    "name": "Prestige High Allagan Gauntlets Of Maiming"
+                },
+                {
+                    "name": "Prestige High Allagan Gauntlets Of Striking"
+                },
+                {
+                    "name": "Prestige High Allagan Gloves Of Aiming"
+                },
+                {
+                    "name": "Prestige High Allagan Gloves Of Casting"
+                },
+                {
+                    "name": "Prestige High Allagan Gloves Of Healing"
+                },
+                {
+                    "name": "Replica High Allagan Gauntlets Of Fending"
+                },
+                {
+                    "name": "Replica High Allagan Gauntlets Of Maiming"
+                },
+                {
+                    "name": "Replica High Allagan Gauntlets Of Striking"
+                },
+                {
+                    "name": "Replica High Allagan Gloves Of Aiming"
+                },
+                {
+                    "name": "Replica High Allagan Gloves Of Casting"
+                },
+                {
+                    "name": "Replica High Allagan Gloves Of Healing"
+                }
+            ]
+        },
+        {
+            "type": "Hands",
             "hint": "I Believe In Magic",
             "items": [
                 {
@@ -7473,6 +7593,66 @@
                 },
                 {
                     "name": "Sailor Brais"
+                }
+            ]
+        },
+        {
+            "type": "Legs",
+            "hint": "High Allagan",
+            "items": [
+                {
+                    "name": "High Allagan Breeches Of Aiming"
+                },
+                {
+                    "name": "High Allagan Breeches Of Casting"
+                },
+                {
+                    "name": "High Allagan Pantaloons Of Healing"
+                },
+                {
+                    "name": "High Allagan Trousers Of Fending"
+                },
+                {
+                    "name": "High Allagan Trousers Of Maiming"
+                },
+                {
+                    "name": "High Allagan Trousers Of Striking"
+                },
+                {
+                    "name": "Prestige High Allagan Breeches Of Aiming"
+                },
+                {
+                    "name": "Prestige High Allagan Breeches Of Casting"
+                },
+                {
+                    "name": "Prestige High Allagan Pantaloons Of Healing"
+                },
+                {
+                    "name": "Prestige High Allagan Trousers Of Fending"
+                },
+                {
+                    "name": "Prestige High Allagan Trousers Of Maiming"
+                },
+                {
+                    "name": "Prestige High Allagan Trousers Of Striking"
+                },
+                {
+                    "name": "Replica High Allagan Breeches Of Aiming"
+                },
+                {
+                    "name": "Replica High Allagan Breeches Of Casting"
+                },
+                {
+                    "name": "Replica High Allagan Pantaloons Of Healing"
+                },
+                {
+                    "name": "Replica High Allagan Trousers Of Fending"
+                },
+                {
+                    "name": "Replica High Allagan Trousers Of Maiming"
+                },
+                {
+                    "name": "Replica High Allagan Trousers Of Striking"
                 }
             ]
         },
@@ -9921,6 +10101,66 @@
                 },
                 {
                     "name": "Palaka Pumps Of Striking"
+                }
+            ]
+        },
+        {
+            "type": "Feet",
+            "hint": "High Allagan",
+            "items": [
+                {
+                    "name": "High Allagan Boots Of Aiming"
+                },
+                {
+                    "name": "High Allagan Boots Of Casting"
+                },
+                {
+                    "name": "High Allagan Sabatons Of Fending"
+                },
+                {
+                    "name": "High Allagan Sabatons Of Maiming"
+                },
+                {
+                    "name": "High Allagan Sabatons Of Striking"
+                },
+                {
+                    "name": "High Allagan Thighboots Of Healing"
+                },
+                {
+                    "name": "Prestige High Allagan Boots Of Aiming"
+                },
+                {
+                    "name": "Prestige High Allagan Boots Of Casting"
+                },
+                {
+                    "name": "Prestige High Allagan Sabatons Of Fending"
+                },
+                {
+                    "name": "Prestige High Allagan Sabatons Of Maiming"
+                },
+                {
+                    "name": "Prestige High Allagan Sabatons Of Striking"
+                },
+                {
+                    "name": "Prestige High Allagan Thighboots Of Healing"
+                },
+                {
+                    "name": "Replica High Allagan Boots Of Aiming"
+                },
+                {
+                    "name": "Replica High Allagan Boots Of Casting"
+                },
+                {
+                    "name": "Replica High Allagan Sabatons Of Fending"
+                },
+                {
+                    "name": "Replica High Allagan Sabatons Of Maiming"
+                },
+                {
+                    "name": "Replica High Allagan Sabatons Of Striking"
+                },
+                {
+                    "name": "Replica High Allagan Thighboots Of Healing"
                 }
             ]
         },
@@ -22142,6 +22382,52 @@
                 {
                     "type": "Legs",
                     "hint": "More Beast Than Man"
+                }
+            ]
+        },
+        {
+            "week": 442,
+            "date": "2026-07-17",
+            "theme": "Allagan On High",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "High Allagan"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "High Allagan"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "High Allagan"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "High Allagan"
+                }
+            ]
+        },
+        {
+            "week": 443,
+            "date": "2026-07-24",
+            "theme": "True Linen Formal",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Animal Instincts"
+                },
+                {
+                    "type": "Body",
+                    "hint": "True Linen"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Fresh And Formal"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Suddenly Sarouels"
                 }
             ]
         }
