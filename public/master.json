@@ -22430,6 +22430,29 @@
                     "hint": "Suddenly Sarouels"
                 }
             ]
+        },
+        {
+            "week": 444,
+            "date": "2026-07-31",
+            "theme": "Adventurous Hyacinth",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Flower Power"
+                },
+                {
+                    "type": "Body",
+                    "hint": "The Great Sigmascape"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Adventure First Worn"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Star \"Studded\""
+                }
+            ]
         }
     ]
 }
