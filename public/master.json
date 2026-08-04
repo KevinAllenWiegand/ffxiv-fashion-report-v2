@@ -22453,6 +22453,29 @@
                     "hint": "Star \"Studded\""
                 }
             ]
+        },
+        {
+            "week": 445,
+            "date": "2026-08-07",
+            "theme": "Jest Scale Mail",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Motley Crew"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Tipping The Scales"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Pumped Up Kecks"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Short Boots"
+                }
+            ]
         }
     ]
 }
