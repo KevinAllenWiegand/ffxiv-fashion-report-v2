@@ -22476,6 +22476,29 @@
                     "hint": "Short Boots"
                 }
             ]
+        },
+        {
+            "week": 446,
+            "date": "2026-08-14",
+            "theme": "Skirted Sky Pirate",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Omega Ornamentation"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Pirates In The Sky"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Cast Your Culottes"
+                },
+                {
+                    "type": "Wrist",
+                    "hint": "Yukata"
+                }
+            ]
         }
     ]
 }
