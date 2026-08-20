@@ -22499,6 +22499,29 @@
                     "hint": "Yukata"
                 }
             ]
+        },
+        {
+            "week": 447,
+            "date": "2026-08-21",
+            "theme": "Ala Mhigan Traveler",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Traveling Dawn"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Ala Mhigan"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "On The Plate"
+                },
+                {
+                    "type": "Ear",
+                    "hint": "Keeping Company"
+                }
+            ]
         }
     ]
 }
