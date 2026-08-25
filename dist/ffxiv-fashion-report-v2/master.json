@@ -2675,22 +2675,67 @@
             "hint": "Cascade",
             "items": [
                 {
-                    "name": "Any Southern Seas Swimsuit"
+                    "name": "Black Summer Halter"
                 },
                 {
-                    "name": "Any Southern Seas Vest"
+                    "name": "Black Summer Top"
                 },
                 {
-                    "name": "Any Summer Top/Halter"
+                    "name": "Blue Summer Halter"
+                },
+                {
+                    "name": "Blue Summer Top"
                 },
                 {
                     "name": "Faire Joi"
+                },
+                {
+                    "name": "Green Summer Halter"
+                },
+                {
+                    "name": "Green Summer Top"
+                },
+                {
+                    "name": "Lunar Summer Halter"
+                },
+                {
+                    "name": "Lunar Summer Top"
                 },
                 {
                     "name": "Moonfire Halter"
                 },
                 {
                     "name": "Moonfire Vest"
+                },
+                {
+                    "name": "Red Summer Halter"
+                },
+                {
+                    "name": "Red Summer Top"
+                },
+                {
+                    "name": "Solar Summer Halter"
+                },
+                {
+                    "name": "Solar Summer Top"
+                },
+                {
+                    "name": "Southern Seas Swimsuit"
+                },
+                {
+                    "name": "Southern Seas Vest"
+                },
+                {
+                    "name": "Striped Summer Halter"
+                },
+                {
+                    "name": "Striped Summer Top"
+                },
+                {
+                    "name": "Summer Evening Top"
+                },
+                {
+                    "name": "Summer Morning Halter"
                 }
             ]
         },
@@ -22520,6 +22565,29 @@
                 {
                     "type": "Ear",
                     "hint": "Keeping Company"
+                }
+            ]
+        },
+        {
+            "week": 448,
+            "date": "2026-08-28",
+            "theme": "Midsummer Explorer",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Foundation's Forefront"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Cascade"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Giving The Fingerless"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "To Adventure"
                 }
             ]
         }
