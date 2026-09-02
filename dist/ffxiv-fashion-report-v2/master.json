@@ -800,6 +800,48 @@
             "hint": "Foundation's Forefront",
             "items": [
                 {
+                    "name": "AR-Caean Velvet Cap Of Aiming"
+                },
+                {
+                    "name": "AR-Caean Velvet Cap Of Fending"
+                },
+                {
+                    "name": "AR-Caean Velvet Cap Of Healing"
+                },
+                {
+                    "name": "AR-Caean Velvet Cap Of Maiming"
+                },
+                {
+                    "name": "AR-Caean Velvet Hat Of Casting"
+                },
+                {
+                    "name": "AR-Caean Velvet Hat Of Scouting"
+                },
+                {
+                    "name": "AR-Caean Velvet Hat Of Striking"
+                },
+                {
+                    "name": "Augmented Neo-Ishgardian Cap Of Aiming"
+                },
+                {
+                    "name": "Augmented Neo-Ishgardian Cap Of Fending"
+                },
+                {
+                    "name": "Augmented Neo-Ishgardian Cap Of Healing"
+                },
+                {
+                    "name": "Augmented Neo-Ishgardian Cap Of Maiming"
+                },
+                {
+                    "name": "Augmented Neo-Ishgardian Hat Of Casting"
+                },
+                {
+                    "name": "Augmented Neo-Ishgardian Hat Of Scouting"
+                },
+                {
+                    "name": "Augmented Neo-Ishgardian Hat Of Striking"
+                },
+                {
                     "name": "Neo-Ishgardian Cap Of Aiming"
                 },
                 {
@@ -5537,6 +5579,21 @@
             "hint": "Giving The Fingerless",
             "items": [
                 {
+                    "name": "Ala Mhigan Fingerless Gloves Of Striking"
+                },
+                {
+                    "name": "Augmented Tackleking's Fingerless Gloves"
+                },
+                {
+                    "name": "Brigand's Gloves"
+                },
+                {
+                    "name": "Filibuster's Fingerless Gloves Of Aiming"
+                },
+                {
+                    "name": "Fingerless Boarskin Gloves"
+                },
+                {
                     "name": "Fingerless Boarskin Gloves Of Gathering"
                 },
                 {
@@ -5552,10 +5609,52 @@
                     "name": "Fingerless Leather Gloves"
                 },
                 {
+                    "name": "Fingerless Peisteskin Gloves"
+                },
+                {
                     "name": "Fingerless Peisteskin Gloves Of Gathering"
                 },
                 {
+                    "name": "Fingerless Raptorskin Gloves"
+                },
+                {
                     "name": "Fingerless Raptorskin Gloves Of Gathering"
+                },
+                {
+                    "name": "Idealized Bodyguard's Fingerless Gloves"
+                },
+                {
+                    "name": "Ivalician Shikari's Fingerless Gloves"
+                },
+                {
+                    "name": "Ivalician Uhlan's Fingerless Gloves"
+                },
+                {
+                    "name": "Lucian Prince's Fingerless Glove"
+                },
+                {
+                    "name": "Night Of Devilry Fingerless Gloves"
+                },
+                {
+                    "name": "Republican Signifer's Fingerless Gloves"
+                },
+                {
+                    "name": "Royal Seneschal's Fingerless Gloves"
+                },
+                {
+                    "name": "Royal Volunteer's Fingerless Gloves Of Healing"
+                },
+                {
+                    "name": "Sipahi Gloves"
+                },
+                {
+                    "name": "Tackleking's Fingerless Gloves"
+                },
+                {
+                    "name": "Valerian Wizard's Fingerless Halfgloves"
+                },
+                {
+                    "name": "Weathered Bodyguard's Fingerless Gloves"
                 }
             ]
         },
