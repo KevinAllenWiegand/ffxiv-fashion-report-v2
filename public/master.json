@@ -22689,6 +22689,29 @@
                     "hint": "To Adventure"
                 }
             ]
+        },
+        {
+            "week": 449,
+            "date": "2026-09-04",
+            "theme": "Hunter From The Far East",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Hingan Nights"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Hand In Long Glove"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Monster Hunt"
+                },
+                {
+                    "type": "Neck",
+                    "hint": "Pirates In The Sky"
+                }
+            ]
         }
     ]
 }
