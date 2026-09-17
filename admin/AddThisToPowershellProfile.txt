@@ -1,0 +1,75 @@
+# Update this to the correct path where you cloned the ffxiv-fashion-report-v2 repository
+$env:FFXIV_ADMIN_PATH = "C:\path\to\ffxiv-fashion-report-v2\admin"
+
+# Cache for the completion lists
+$script:completionCache = @{}
+
+$scriptBlock = {
+    param($wordToComplete, $commandAst, $cursorPosition)
+
+    # Map argument names to their corresponding hint files
+    $filePaths = @{
+		head  = "$env:FFXIV_ADMIN_PATH\powershell-hints-head.txt"
+		body  = "$env:FFXIV_ADMIN_PATH\powershell-hints-body.txt"
+		hands = "$env:FFXIV_ADMIN_PATH\powershell-hints-hands.txt"
+		legs  = "$env:FFXIV_ADMIN_PATH\powershell-hints-legs.txt"
+		feet  = "$env:FFXIV_ADMIN_PATH\powershell-hints-feet.txt"
+		neck  = "$env:FFXIV_ADMIN_PATH\powershell-hints-neck.txt"
+		ear   = "$env:FFXIV_ADMIN_PATH\powershell-hints-ear.txt"
+		ring  = "$env:FFXIV_ADMIN_PATH\powershell-hints-ring.txt"
+    }
+
+    # Parse the command line words typed so far
+    $tokens = $commandAst.CommandElements | ForEach-Object { $_.Value }
+
+    # Find the index of the current word
+    $currentIndex = $tokens.Count - 1
+    if ($wordToComplete -eq '') {
+        $currentIndex += 1
+    }
+
+    # Determine the previous word
+    $previousWord = $tokens[$currentIndex - 1]
+
+    # If the previous word isn't one of our known categories, exit silently
+    if (-not $filePaths.ContainsKey($previousWord)) {
+        return
+    }
+
+    # Get the appropriate file path
+    $filePath = $filePaths[$previousWord]
+
+    # Safety check: If the file does not exist, exit silently
+    if (-not (Test-Path $filePath)) {
+        return
+    }
+
+    # Load the item list only if it isn't already cached
+    if (-not $script:completionCache.ContainsKey($previousWord)) {
+        $script:completionCache[$previousWord] =
+            Get-Content -Path $filePath | Sort-Object -Unique
+    }
+
+    # Get the cached item list
+    $itemList = $script:completionCache[$previousWord]
+
+    # Clean up any quotes the user manually typed
+    $cleanWord = $wordToComplete -replace "['`"]", ""
+
+    # Filter and feed the type-ahead suggestions
+    $itemList |
+        Where-Object { $_ -like "$cleanWord*" } |
+        ForEach-Object {
+            $completionText = "`"$_`""
+
+            [System.Management.Automation.CompletionResult]::new(
+                $completionText,
+                $_,
+                'ParameterValue',
+                $_
+            )
+        }
+}
+
+# Overwrite the old completer binding
+Register-ArgumentCompleter -Native -CommandName 'node' -ScriptBlock $scriptBlock

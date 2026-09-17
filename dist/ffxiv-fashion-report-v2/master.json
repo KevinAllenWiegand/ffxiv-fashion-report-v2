@@ -22712,6 +22712,52 @@
                     "hint": "Pirates In The Sky"
                 }
             ]
+        },
+        {
+            "week": 450,
+            "date": "2026-09-11",
+            "theme": "Suave Sorcery",
+            "slots": [
+                {
+                    "type": "Hands",
+                    "hint": "Tip O' The Arhat"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Too Cool"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "I Believe In Magic"
+                },
+                {
+                    "type": "Wrist",
+                    "hint": "Simply Gorgeous"
+                }
+            ]
+        },
+        {
+            "week": 451,
+            "date": "2026-09-18",
+            "theme": "Shiver Me Timbers",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Shivering Timbers"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Winter Wonderland"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Bewitched"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Sleight Of Hand"
+                }
+            ]
         }
     ]
 }
