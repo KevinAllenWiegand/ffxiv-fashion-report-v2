@@ -8,16 +8,18 @@ $scriptBlock = {
     param($wordToComplete, $commandAst, $cursorPosition)
 
     # Map argument names to their corresponding hint files
-    $filePaths = @{
-		head  = "$env:FFXIV_ADMIN_PATH\powershell-hints-head.txt"
-		body  = "$env:FFXIV_ADMIN_PATH\powershell-hints-body.txt"
-		hands = "$env:FFXIV_ADMIN_PATH\powershell-hints-hands.txt"
-		legs  = "$env:FFXIV_ADMIN_PATH\powershell-hints-legs.txt"
-		feet  = "$env:FFXIV_ADMIN_PATH\powershell-hints-feet.txt"
-		neck  = "$env:FFXIV_ADMIN_PATH\powershell-hints-neck.txt"
-		ear   = "$env:FFXIV_ADMIN_PATH\powershell-hints-ear.txt"
-		ring  = "$env:FFXIV_ADMIN_PATH\powershell-hints-ring.txt"
-    }
+	$adminPath = $env:FFXIV_ADMIN_PATH
+
+	$filePaths = @{
+		head  = Join-Path $adminPath "powershell-hints-head.txt"
+		body  = Join-Path $adminPath "powershell-hints-body.txt"
+		hands = Join-Path $adminPath "powershell-hints-hands.txt"
+		legs  = Join-Path $adminPath "powershell-hints-legs.txt"
+		feet  = Join-Path $adminPath "powershell-hints-feet.txt"
+		neck  = Join-Path $adminPath "powershell-hints-neck.txt"
+		ear   = Join-Path $adminPath "powershell-hints-ear.txt"
+		ring  = Join-Path $adminPath "powershell-hints-ring.txt"
+	}
 
     # Parse the command line words typed so far
     $tokens = $commandAst.CommandElements | ForEach-Object { $_.Value }
