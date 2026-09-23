@@ -1859,6 +1859,30 @@
         },
         {
             "type": "Head",
+            "hint": "Shivering Timbers",
+            "items": [
+                {
+                    "name": "Buccaneer's Tricone"
+                },
+                {
+                    "name": "Griffin Leather Tricone Of Scouting"
+                },
+                {
+                    "name": "Griffin Leather Tricone Of Striking"
+                },
+                {
+                    "name": "Imperial Operative Tricone"
+                },
+                {
+                    "name": "Kirimu Tricone"
+                },
+                {
+                    "name": "Silver Tricone"
+                }
+            ]
+        },
+        {
+            "type": "Head",
             "hint": "Silken Things",
             "items": [
                 {
@@ -22756,6 +22780,29 @@
                 {
                     "type": "Legs",
                     "hint": "Sleight Of Hand"
+                }
+            ]
+        },
+        {
+            "week": 452,
+            "date": "2026-09-25",
+            "theme": "Riders From The Distant Past",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Bush Stylish"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Riding High"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Ronkan Robes"
+                },
+                {
+                    "type": "Ring",
+                    "hint": "Jewels Of Red"
                 }
             ]
         }
