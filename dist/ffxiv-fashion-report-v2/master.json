@@ -11354,7 +11354,19 @@
             "hint": "Beautiful Dreamer",
             "items": [
                 {
-                    "name": "Any Lakshmi's Earrings"
+                    "name": "Lakshmi's Earrings Of Aiming"
+                },
+                {
+                    "name": "Lakshmi's Earrings Of Casting"
+                },
+                {
+                    "name": "Lakshmi's Earrings Of Fending"
+                },
+                {
+                    "name": "Lakshmi's Earrings Of Healing"
+                },
+                {
+                    "name": "Lakshmi's Earrings Of Slaying"
                 }
             ]
         },
@@ -12275,7 +12287,19 @@
             "hint": "Beautiful Dreamer",
             "items": [
                 {
-                    "name": "Any Lakshmi's Bracelet"
+                    "name": "Lakshmi's Bracelet Of Aiming"
+                },
+                {
+                    "name": "Lakshmi's Bracelet Of Casting"
+                },
+                {
+                    "name": "Lakshmi's Bracelet Of Fending"
+                },
+                {
+                    "name": "Lakshmi's Bracelet Of Healing"
+                },
+                {
+                    "name": "Lakshmi's Bracelet Of Slaying"
                 }
             ]
         },
@@ -22803,6 +22827,29 @@
                 {
                     "type": "Ring",
                     "hint": "Jewels Of Red"
+                }
+            ]
+        },
+        {
+            "week": 453,
+            "date": "2026-10-02",
+            "theme": "Overslept The Revolution",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Robed In Resistance"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Sleepover Style"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Dressed For Success"
+                },
+                {
+                    "type": "Ear",
+                    "hint": "Beautiful Dreamer"
                 }
             ]
         }
