@@ -22852,6 +22852,29 @@
                     "hint": "Beautiful Dreamer"
                 }
             ]
+        },
+        {
+            "week": 454,
+            "date": "2026-10-09",
+            "theme": "Avant-Garde Rider",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "The Wild Side"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Riding High"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Avant-Garde"
+                },
+                {
+                    "type": "Ear",
+                    "hint": "Coiled Finally"
+                }
+            ]
         }
     ]
 }
