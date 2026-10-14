@@ -22875,6 +22875,29 @@
                     "hint": "Coiled Finally"
                 }
             ]
+        },
+        {
+            "week": 455,
+            "date": "2026-10-16",
+            "theme": "Omega's Jest",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "A Pirate's Life"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Motley Crew"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Pumped Up Kecks"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Omega Ornamentation"
+                }
+            ]
         }
     ]
 }
