@@ -22898,6 +22898,29 @@
                     "hint": "Omega Ornamentation"
                 }
             ]
+        },
+        {
+            "week": 456,
+            "date": "2026-10-23",
+            "theme": "Enchanting Gods Of Eld",
+            "slots": [
+                {
+                    "type": "Body",
+                    "hint": "Ronkan Robes"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Bewitched"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Flap In Front"
+                },
+                {
+                    "type": "Ear",
+                    "hint": "Beautiful Dreamer"
+                }
+            ]
         }
     ]
 }
