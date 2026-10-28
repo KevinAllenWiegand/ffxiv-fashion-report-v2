@@ -22921,6 +22921,29 @@
                     "hint": "Beautiful Dreamer"
                 }
             ]
+        },
+        {
+            "week": 457,
+            "date": "2026-10-30",
+            "theme": "Bold Hunter",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Mono A Mono"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Monster Hunt"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Less Is More"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Bookworm"
+                }
+            ]
         }
     ]
 }
