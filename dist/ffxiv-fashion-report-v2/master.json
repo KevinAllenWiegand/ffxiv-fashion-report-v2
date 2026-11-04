@@ -22944,6 +22944,29 @@
                     "hint": "Bookworm"
                 }
             ]
+        },
+        {
+            "week": 458,
+            "date": "2026-11-06",
+            "theme": "LegendarY SpectatoR",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "A Spot Of Sport"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Ivalice Accoutrements"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Kitty Cat"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "NieR And Far"
+                }
+            ]
         }
     ]
 }
