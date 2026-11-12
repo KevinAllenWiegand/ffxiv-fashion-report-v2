@@ -22967,6 +22967,29 @@
                     "hint": "NieR And Far"
                 }
             ]
+        },
+        {
+            "week": 459,
+            "date": "2026-11-13",
+            "theme": "Lily Of The Bandit",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Healing Lilies"
+                },
+                {
+                    "type": "Hands",
+                    "hint": "Fashion Bandit"
+                },
+                {
+                    "type": "Legs",
+                    "hint": "Rouse Trousers"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Caligae Divorcee"
+                }
+            ]
         }
     ]
 }
