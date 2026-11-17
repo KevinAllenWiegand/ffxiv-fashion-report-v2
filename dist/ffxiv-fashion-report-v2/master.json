@@ -22990,6 +22990,29 @@
                     "hint": "Caligae Divorcee"
                 }
             ]
+        },
+        {
+            "week": 460,
+            "date": "2026-11-20",
+            "theme": "Dread Sky Pirate Mod-Beard",
+            "slots": [
+                {
+                    "type": "Head",
+                    "hint": "Wild Whiskers"
+                },
+                {
+                    "type": "Body",
+                    "hint": "Mantle Of Mod"
+                },
+                {
+                    "type": "Feet",
+                    "hint": "Do Rats Fly"
+                },
+                {
+                    "type": "Neck",
+                    "hint": "Jewels Of Yellow"
+                }
+            ]
         }
     ]
 }
